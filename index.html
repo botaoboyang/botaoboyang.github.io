@@ -2,11 +2,198 @@
 <html>
 
 <head>
-<title>Puzzle</title>
+	<title>Puzzle</title>
+	<style>
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			background-color: #ffffff;
+			font-family: Verdana;
+		}
+
+		#container {
+			display: block;
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+			padding: 20px;
+		}
+
+		.column {
+			float: left;
+			padding: 10px;
+		}
+
+		.column.side {
+			width: 24%;
+		}
+
+		.column.middle {
+			width: 48%;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.content {
+			padding: 10px;
+		}
+
+		.tile {
+			float: left;
+			border-style: solid;
+			border-color: #77A6F7;
+			border-width: 2px;
+		}
+
+		.unlock {
+			padding-top: 1px;
+			padding-bottom: 2px;
+			padding-left: 2px;
+			margin-top: 10px;
+			border-left: solid 5px;
+			border-color: #173e43;
+			background-color: #6dbab7;
+		}
+
+		.unlock:hover {
+			background-color: #fae596;
+		}
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+		}
+
+		.tooltip .tooltiptext {
+			visibility: hidden;
+			width: 120px;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 150%;
+			left: 50%;
+			margin-left: -60px;
+		}
+
+		.tooltip .tooltiptext::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -5px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: black transparent transparent transparent;
+		}
+
+		.tooltip:hover .tooltiptext {
+			visibility: visible;
+		}
+
+	</style>
 </head>
 
 <body>
-My First HTML
+	<div id="container">
+
+		<div class="row">
+			<div class="column side content">
+				<h1>Money: <span class="money">0</span></h1>
+				<h1>Upgrades</h1>
+			</div>
+			<div class="column middle content">
+				<div id="board" class="row">
+
+					<!-- <div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px;border-color:red;background-color:rgba(255, 204, 187, 1.0)">
+						<img src="glyph-iconset-master/svg/si-glyph-foot-sign.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px;border-color:red;background-color:rgba(255, 204, 187, 1.0)">
+						<div style="position: absolute;width:80px;height:156px;background-color: rgba(253, 255, 206, 0.5)">
+							<img style="width:156px;height:156px" src="glyph-iconset-master/svg/si-glyph-database.svg">
+						</div>
+					</div>
+					
+					<div class="tile" style="width:160px;height:160px">
+						<div style="position: absolute;width:80px;height:156px;background-color: #fbffbc">
+							<img style="width:156px;height:156px" src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+						</div>
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-ambulance.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-baseball.svg">
+					</div>
+
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bank.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-cow.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-cpu.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-tablet.svg">
+					</div>
+
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div>
+					<div class="tile" style="width:160px;height:160px">
+						<img src="glyph-iconset-master/svg/si-glyph-bicycle-man.svg">
+					</div> -->
+				</div>
+			</div>
+			<div class="column side content">
+				<h1>Current Tile</h1>
+				<span id="currentTile"></span>
+				<br style="clear:both;"/>
+				<h3>Type: <span id="currentTileType">BASIC</span></h3>
+				<h3>Level:
+					<span id="currentTileLevel">99</span>
+					<button style="float:right;font-size:20px;" class="tooltip">
+						Level Up
+						<span class="tooltiptext">$<span id="currentTileLevelUpCost">99</span></span>
+					</button>
+				</h3>
+				<h3>Current Value: $<span id="currentTileValue">0</span></h3>
+				<h3>Maximum Value: $<span id="currentTileMaxValue">0</span></h3>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="tile.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>

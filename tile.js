@@ -88,7 +88,7 @@ class Tile {
 				
 		}
 		tileWidth -= 4
-		return `<img style="position:relative;left:${tileWidth/4}px;top:${tileWidth/4}px;width:${tileWidth/2}px;height:${tileWidth/2}px" src="glyph-iconset-master/svg/${imgsrc}">`
+		return `<img style="position:relative;left:${tileWidth/4}px;top:${tileWidth/4}px;width:${tileWidth/2}px;height:${tileWidth/2}px" src="svg/${imgsrc}">`
 	}
 
 	render(tileWidth, hasPlayer) {
