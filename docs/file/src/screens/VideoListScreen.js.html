@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/VideoListScreen.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppContainer">AppContainer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/ChangePasswordModal.js~ChangePasswordModal.html">ChangePasswordModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PromptButton">PromptButton</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/LoginScreen.js~EmailPasswordLogin.html">EmailPasswordLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MainScreen.js~MainScreen.html">MainScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MyVideoList.js~MyVideoList.html">MyVideoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoDetailScreen.js~VideoDetailScreen.html">VideoDetailScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoListScreen.js~VideoListScreen.html">VideoListScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseDate">parseDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraPermission">getCameraPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraRollPermission">getCameraRollPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFileFromS3">getFileFromS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImage">getImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImageFromCameraRoll">getImageFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getVideoFromCameraRoll">getVideoFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeFileInS3">storeFileInS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takePhotoWithCamera">takePhotoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeVideoWithCamera">takeVideoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uploadVideo">uploadVideo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/VideoListScreen.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import {
+  Text,
+  View,
+  FlatList,
+  TouchableHighlight,
+  StatusBar,
+  Dimensions,
+  StyleSheet
+} from &quot;react-native&quot;;
+import { Icon, Card } from &quot;react-native-elements&quot;;
+import { Video } from &quot;expo-av&quot;;
+import API from &quot;../../config/api&quot;;
+import { getFileFromS3 } from &quot;../utils&quot;;
+import { ScreenContainer } from &quot;@draftbit/ui&quot;;
+import Routes from &quot;../../config/Routes&quot;;
+
+import { parseDate } from &quot;../utils&quot;;
+
+const { width } = Dimensions.get(&quot;window&quot;);
+const videoHeight = (width / 16) * 9;
+
+class VideoListScreen extends React.Component {
+  state = {
+    videos: [],
+    refreshing: false
+  };
+
+  componentDidMount() {
+    StatusBar.setHidden(false);
+    this.fetchVideos();
+  }
+
+  fetchVideos = async () =&gt; {
+    this.setState({ refreshing: true });
+    const res = await API.post(&quot;/video/list&quot;, { pageSize: 50, pageNo: 0 });
+    const {
+      data: { video_list }
+    } = res;
+
+    for (const video of video_list) {
+      video.uri = await getFileFromS3(video.aws_key, video.aws_access);
+    }
+    this.setState({ videos: video_list, refreshing: false });
+  };
+
+  _toDetailScreen = item =&gt; {
+    const { navigation } = this.props;
+    navigation.navigate(Routes.VideoDetailScreen, {
+      video_id: item.id,
+      video_title: item.title,
+      editButton: false
+    });
+  };
+
+  _renderItem = ({ item }) =&gt; {
+    return (
+      // &lt;Card style={styles.video}&gt;
+      &lt;View style={styles.cell}&gt;
+        &lt;Video
+          source={{ uri: item.uri }}
+          style={styles.video}
+          useNativeControls
+        /&gt;
+        &lt;TouchableHighlight
+          style={{ flex: 1 }}
+          onPress={() =&gt; this._toDetailScreen(item)}
+          underlayColor=&quot;white&quot;
+        &gt;
+          &lt;View style={styles.video_info}&gt;
+            &lt;View style={styles.textContainer}&gt;
+              &lt;View style={styles.titleContainer}&gt;
+                &lt;Text style={styles.titleText}&gt;{item.title}&lt;/Text&gt;
+              &lt;/View&gt;
+              &lt;View style={styles.emailContainer}&gt;
+                &lt;Text style={styles.emailText}&gt;
+                  {item.user_email} {parseDate(item.upload_time)}
+                &lt;/Text&gt;
+              &lt;/View&gt;
+            &lt;/View&gt;
+            &lt;View style={styles.iconContainer}&gt;
+              &lt;Icon size={30} name=&quot;subject&quot; /&gt;
+            &lt;/View&gt;
+          &lt;/View&gt;
+        &lt;/TouchableHighlight&gt;
+      &lt;/View&gt;
+      // &lt;/Card&gt;
+    );
+  };
+
+  render() {
+    const { videos } = this.state;
+    return (
+      &lt;ScreenContainer hasSafeArea style={styles.container}&gt;
+        &lt;FlatList
+          style={{ flex: 1 }}
+          data={videos}
+          renderItem={this._renderItem}
+          keyExtractor={item =&gt; `${item.id}-${item.aws_key}`}
+          onRefresh={() =&gt; this.fetchVideos()}
+          refreshing={this.state.refreshing}
+          //ListFooterComponent={
+          //  &lt;TouchableOpacity onPress={this.loadvideos}&gt;
+          //    &lt;Text style={{ padding: 30 }}&gt;Load more&lt;/Text&gt;
+          //  &lt;/TouchableOpacity&gt;
+          //}
+        /&gt;
+      &lt;/ScreenContainer&gt;
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: &quot;#fff&quot;
+  },
+  cell: {
+    width: width,
+    height: videoHeight + 70,
+    backgroundColor: &quot;#eee&quot;,
+    overflow: &quot;hidden&quot;,
+    borderBottomColor: &quot;black&quot;,
+    borderBottomWidth: 5,
+    marginBottom: 10
+  },
+  video: {
+    width: width - 10,
+    height: videoHeight - 10,
+    alignSelf: &quot;center&quot;
+  },
+  video_info: {
+    flex: 1,
+    marginLeft: 20,
+    marginRight: 10,
+    flexDirection: &quot;row&quot;
+  },
+  textContainer: {
+    flex: 1,
+    flexDirection: &quot;column&quot;
+  },
+  iconContainer: {
+    width: 70,
+    height: 30,
+    flexDirection: &quot;row-reverse&quot;,
+    alignSelf: &quot;center&quot;,
+    justifyContent: &quot;space-between&quot;
+  },
+
+  titleContainer: {
+    flex: 3,
+    justifyContent: &quot;center&quot;
+  },
+  titleText: {
+    fontSize: 18,
+    fontWeight: &quot;500&quot;
+  },
+  emailContainer: {
+    flex: 2,
+    justifyContent: &quot;center&quot;
+  },
+  emailText: {
+    color: &quot;#444&quot;
+  }
+});
+
+export default VideoListScreen;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

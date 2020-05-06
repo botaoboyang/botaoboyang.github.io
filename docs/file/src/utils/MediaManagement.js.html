@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/utils/MediaManagement.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppContainer">AppContainer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/ChangePasswordModal.js~ChangePasswordModal.html">ChangePasswordModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PromptButton">PromptButton</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/LoginScreen.js~EmailPasswordLogin.html">EmailPasswordLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MainScreen.js~MainScreen.html">MainScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MyVideoList.js~MyVideoList.html">MyVideoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoDetailScreen.js~VideoDetailScreen.html">VideoDetailScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoListScreen.js~VideoListScreen.html">VideoListScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseDate">parseDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraPermission">getCameraPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraRollPermission">getCameraRollPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFileFromS3">getFileFromS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImage">getImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImageFromCameraRoll">getImageFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getVideoFromCameraRoll">getVideoFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeFileInS3">storeFileInS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takePhotoWithCamera">takePhotoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeVideoWithCamera">takeVideoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uploadVideo">uploadVideo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/utils/MediaManagement.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { Storage } from &quot;aws-amplify&quot;;
+import * as ImagePicker from &quot;expo-image-picker&quot;;
+
+import API from &quot;../../config/api&quot;;
+
+export const uploadVideo = async videoObj =&gt; {
+  const { cancelled, uri } = videoObj;
+  if (!cancelled) {
+    const { key: aws_key, access: aws_access } = await storeFileInS3(uri);
+    const variables = {
+      aws_access,
+      aws_key,
+      title: videoObj.videoTitle,
+      description: videoObj.videoDiscription,
+      is_public: aws_access === videoObj.access
+    };
+    await API.post(&quot;/video/upload&quot;, { ...variables });
+  }
+  // access being sent
+  /** 
+  console.log(&quot;access passed to backend below&quot;);
+  console.log(videoObj.access);
+  */
+};
+
+export const getFileFromS3 = async (key, access = &quot;public&quot;) =&gt; {
+  return await Storage.get(key, { level: access });
+};
+
+export const storeFileInS3 = async (
+  fileUri,
+  awsKey = null,
+  access = &quot;public&quot;
+) =&gt; {
+  const blob = await new Promise((resolve, reject) =&gt; {
+    const xhr = new XMLHttpRequest();
+    xhr.onload = function() {
+      resolve(xhr.response);
+    };
+    xhr.onerror = function() {
+      reject(new TypeError(&quot;Network request failed&quot;));
+    };
+    xhr.responseType = &quot;blob&quot;;
+    xhr.open(&quot;GET&quot;, fileUri, true);
+    xhr.send(null);
+  });
+  const { name, type } = blob._data;
+  const options = {
+    level: access,
+    contentType: type
+  };
+  const key = awsKey || name;
+  const result = await Storage.put(key, blob, options);
+  return {
+    access,
+    key: result.key
+  };
+};
+
+export const getCameraPermission = async () =&gt; {
+  const { status } = await ImagePicker.requestCameraPermissionsAsync();
+  return status === &quot;granted&quot;;
+};
+
+export const getCameraRollPermission = async () =&gt; {
+  const { status } = await ImagePicker.requestCameraRollPermissionsAsync();
+  return status === &quot;granted&quot;;
+};
+
+export const getImage = async (fromCameraRoll = true) =&gt; {
+  const { updateParentState } = this.props;
+
+  let img;
+  if (fromCameraRoll) {
+    img = await getImageFromCameraRoll(true);
+  } else {
+    img = await takePhotoWithCamera(true);
+  }
+
+  if (img &amp;&amp; !img.cancelled) {
+    this.setState({ avatar: img, skipped: false });
+    await updateParentState({ avatar: { uri: img.uri, skipped: false } });
+  }
+};
+
+export const takePhotoWithCamera = async (square = false) =&gt; {
+  const options = square
+    ? {
+        quality: 0.5,
+        base64: true,
+        mediaTypes: &quot;Images&quot;,
+        allowsEditing: true,
+        exif: false,
+        aspect: [1, 1]
+      }
+    : {
+        quality: 0.5,
+        base64: true,
+        mediaTypes: &quot;Images&quot;,
+        allowsEditing: true,
+        exif: false
+      };
+  const permission = await getCameraPermission();
+  const permission2 = await getCameraRollPermission();
+  if (permission &amp;&amp; permission2) {
+    try {
+      const image = await ImagePicker.launchCameraAsync(options);
+      return image;
+    } catch (err) {
+      return null;
+    }
+  } else {
+    return null;
+  }
+};
+
+export const getImageFromCameraRoll = async (square = false) =&gt; {
+  const options = square
+    ? {
+        quality: 0.5,
+        base64: true,
+        mediaTypes: &quot;Images&quot;,
+        allowsEditing: true,
+        exif: false,
+        aspect: [1, 1]
+      }
+    : {
+        quality: 0.5,
+        base64: true,
+        mediaTypes: &quot;Images&quot;,
+        allowsEditing: true,
+        exif: false
+      };
+  const permission = await getCameraRollPermission();
+  if (permission) {
+    const image = await ImagePicker.launchImageLibraryAsync(options);
+    return image;
+  }
+  return null;
+};
+
+const videoIsUnderTimeLimit = ({ duration }) =&gt; {
+  const MAX_VIDEO_LENGTH_SECONDS = 600; // 10 minutes
+  return duration &lt;= MAX_VIDEO_LENGTH_SECONDS * 1000;
+};
+
+export const getVideoFromCameraRoll = async () =&gt; {
+  const options = {
+    quality: 0.5,
+    base64: true,
+    mediaTypes: &quot;Videos&quot;,
+    exif: false,
+    allowsEditing: true
+  };
+  const permission = await getCameraRollPermission();
+  if (permission) {
+    const video = await ImagePicker.launchImageLibraryAsync(options);
+    if (!videoIsUnderTimeLimit(video)) {
+      return null;
+    }
+    return video;
+  }
+  return null;
+};
+
+export const takeVideoWithCamera = async () =&gt; {
+  const options = {
+    quality: 0.5,
+    base64: true,
+    mediaTypes: &quot;Videos&quot;,
+    exif: false,
+    allowsEditing: true
+  };
+  const permission = await getCameraPermission();
+  const permission2 = await getCameraRollPermission();
+  if (permission &amp;&amp; permission2) {
+    try {
+      const video = await ImagePicker.launchCameraAsync(options);
+      if (!videoIsUnderTimeLimit(video)) {
+        return null;
+      }
+      return video;
+    } catch (err) {
+      return null;
+    }
+  } else {
+    return null;
+  }
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

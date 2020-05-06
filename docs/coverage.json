@@ -1,0 +1,175 @@
+{
+  "coverage": "0%",
+  "expectCount": 90,
+  "actualCount": 0,
+  "files": {
+    "src/Navigation.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        14,
+        78
+      ]
+    },
+    "src/components/ChangePasswordModal.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        112,
+        18,
+        19,
+        25,
+        29,
+        53
+      ]
+    },
+    "src/components/ContentPicker.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        34,
+        35,
+        40,
+        49,
+        54,
+        65,
+        149
+      ]
+    },
+    "src/components/PromptButton.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        9
+      ]
+    },
+    "src/screens/LoginScreen.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        18,
+        23,
+        46,
+        51,
+        156
+      ]
+    },
+    "src/screens/MainScreen.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        12,
+        17
+      ]
+    },
+    "src/screens/MyVideoList.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        18,
+        19,
+        111,
+        21,
+        22,
+        27,
+        32,
+        45,
+        56,
+        89
+      ]
+    },
+    "src/screens/ProfileScreen.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        18,
+        25,
+        29,
+        35,
+        48,
+        53,
+        58,
+        134,
+        149
+      ]
+    },
+    "src/screens/RegisterUserScreen.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        17,
+        18,
+        24,
+        77,
+        82,
+        182
+      ]
+    },
+    "src/screens/VideoDetailScreen.js": {
+      "expectCount": 15,
+      "actualCount": 0,
+      "undocumentLines": [
+        26,
+        27,
+        309,
+        327,
+        367,
+        30,
+        31,
+        46,
+        51,
+        67,
+        85,
+        100,
+        118,
+        130,
+        159
+      ]
+    },
+    "src/screens/VideoListScreen.js": {
+      "expectCount": 10,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        21,
+        113,
+        23,
+        24,
+        29,
+        34,
+        47,
+        56,
+        91
+      ]
+    },
+    "src/utils/DateUtils.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/utils/MediaManagement.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        26,
+        30,
+        60,
+        65,
+        70,
+        86,
+        117,
+        142,
+        147,
+        166
+      ]
+    }
+  }
+}

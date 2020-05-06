@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/RegisterUserScreen.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AppContainer">AppContainer</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/ChangePasswordModal.js~ChangePasswordModal.html">ChangePasswordModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PromptButton">PromptButton</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/LoginScreen.js~EmailPasswordLogin.html">EmailPasswordLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MainScreen.js~MainScreen.html">MainScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/MyVideoList.js~MyVideoList.html">MyVideoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoDetailScreen.js~VideoDetailScreen.html">VideoDetailScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/screens/VideoListScreen.js~VideoListScreen.html">VideoListScreen</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utils">utils</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseDate">parseDate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraPermission">getCameraPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getCameraRollPermission">getCameraRollPermission</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFileFromS3">getFileFromS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImage">getImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getImageFromCameraRoll">getImageFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getVideoFromCameraRoll">getVideoFromCameraRoll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeFileInS3">storeFileInS3</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takePhotoWithCamera">takePhotoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeVideoWithCamera">takeVideoWithCamera</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uploadVideo">uploadVideo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/RegisterUserScreen.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import {
+  withTheme,
+  TextField,
+  Image,
+  Container,
+  ScreenContainer,
+  Button,
+  Touchable
+} from &quot;@draftbit/ui&quot;;
+import { StyleSheet, Text, KeyboardAvoidingView, Alert } from &quot;react-native&quot;;
+
+import Images from &quot;../../config/Images&quot;;
+import Routes from &quot;../../config/Routes&quot;;
+import API from &quot;../../config/api&quot;;
+
+class RegisterUserScreen extends React.Component {
+  state = {
+    emailInput: &quot;&quot;,
+    passwordInput: &quot;&quot;,
+    confirmPasswordInput: &quot;&quot;
+  };
+
+  registerUser = () =&gt; {
+    const { navigation } = this.props;
+    const { emailInput, passwordInput, confirmPasswordInput } = this.state;
+
+    if (passwordInput === confirmPasswordInput) {
+      // Create account
+      API.post(&quot;/register&quot;, {
+        email: emailInput,
+        password: passwordInput
+      }).then(
+        res =&gt; {
+          console.log(res.data);
+          console.log(res.status);
+          console.log(res.data.errorMsg);
+          // If user error, by default .then needs to have status 200
+          if (res.data.errorMsg) {
+            Alert.alert(
+              &quot;Registration Error&quot;,
+              res.data.errorMsg,
+              [{ text: &quot;OK&quot;, onPress: () =&gt; console.log(&quot;OK Pressed&quot;) }],
+              { cancelable: false }
+            );
+            navigation.navigate(Routes.LoginScreen);
+          }
+
+          // status 200 and no error message meaning success
+          else {
+            Alert.alert(
+              &quot;Registration successfull&quot;,
+              &quot;You have successfully registered please log in&quot;,
+              [{ text: &quot;OK&quot;, onPress: () =&gt; console.log(&quot;OK Pressed&quot;) }],
+              { cancelable: false }
+            );
+            navigation.navigate(Routes.LoginScreen);
+          }
+          // status not 200 something went wrong on server display as an uknown error
+        },
+        error =&gt; {
+          console.log(error);
+          Alert.alert(
+            &quot;Unknown Error&quot;,
+            &quot;Oops Something went wrong! Please try again!&quot;,
+            [{ text: &quot;OK&quot;, onPress: () =&gt; console.log(&quot;OK Pressed&quot;) }],
+            { cancelable: false }
+          );
+          //navigation.navigate(Routes.RegisterUserScreen)
+        }
+      );
+    } else {
+      alert(&quot;Password fields must match! Please try again&quot;);
+    }
+  };
+
+  goToLogin = () =&gt; {
+    const { navigation } = this.props;
+    navigation.navigate(Routes.LoginScreen);
+  };
+
+  render() {
+    const { theme } = this.props;
+
+    return (
+      &lt;ScreenContainer hasSafeArea={true} scrollable={true}&gt;
+        &lt;KeyboardAvoidingView
+          enabled={true}
+          behavior=&quot;position&quot;
+          keyboardVerticalOffset={20}
+          style={styles.keyboardAvoidingViewBW}
+        &gt;
+          &lt;Container
+            elevation={0}
+            useThemeGutterPadding={true}
+            style={styles.containerZl}
+          &gt;
+            &lt;Image
+              source={Images.Logo}
+              resizeMode=&quot;contain&quot;
+              style={styles.image4O}
+            /&gt;
+            &lt;Container elevation={0} useThemeGutterPadding={true}&gt;
+              &lt;TextField
+                onChangeText={emailInput =&gt; this.setState({ emailInput })}
+                value={this.state.emailInput}
+                type=&quot;underline&quot;
+                label=&quot;Email&quot;
+                keyboardType=&quot;email-address&quot;
+                autoCapitalize=&quot;none&quot;
+                style={StyleSheet.flatten([
+                  styles.textFieldDg,
+                  { borderColor: theme.colors.surface }
+                ])}
+              /&gt;
+              &lt;TextField
+                secureTextEntry={true}
+                onChangeText={passwordInput =&gt; this.setState({ passwordInput })}
+                keyboardType=&quot;default&quot;
+                type=&quot;underline&quot;
+                label=&quot;Password&quot;
+                value={this.state.passwordInput}
+                style={styles.textFieldAB}
+              /&gt;
+              &lt;TextField
+                onChangeText={confirmPasswordInput =&gt;
+                  this.setState({ confirmPasswordInput })
+                }
+                label=&quot;Confirm Password&quot;
+                value={this.state.confirmPasswordInput}
+                type=&quot;underline&quot;
+                keyboardType=&quot;default&quot;
+                secureTextEntry={true}
+                style={styles.textField9W}
+              /&gt;
+              &lt;Button
+                color={theme.colors.primary}
+                type=&quot;solid&quot;
+                style={styles.buttonOo}
+                onPress={this.registerUser}
+              &gt;
+                Create Account
+              &lt;/Button&gt;
+              &lt;Touchable style={styles.touchableTu} onPress={this.goToLogin}&gt;
+                &lt;Text
+                  style={StyleSheet.flatten([
+                    styles.textKj,
+                    theme.typography.button,
+                    { color: theme.colors.primary }
+                  ])}
+                &gt;
+                  Already Registered? Sign In
+                &lt;/Text&gt;
+              &lt;/Touchable&gt;
+            &lt;/Container&gt;
+            &lt;Container
+              useThemeGutterPadding={true}
+              elevation={0}
+              style={StyleSheet.flatten([
+                styles.containerFi,
+                { backgroundColor: theme.colors.surface }
+              ])}
+            &gt;
+              &lt;Text
+                style={StyleSheet.flatten([
+                  styles.textDo,
+                  theme.typography.caption,
+                  { color: theme.colors.light }
+                ])}
+              &gt;
+                By creating an account, you agree to our Terms of Service,
+                Privacy Policy and Cookie Policy.{&quot; &quot;}
+              &lt;/Text&gt;
+            &lt;/Container&gt;
+          &lt;/Container&gt;
+        &lt;/KeyboardAvoidingView&gt;
+      &lt;/ScreenContainer&gt;
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  textFieldDg: {
+    height: 82
+  },
+  image4O: {
+    height: 125,
+    alignSelf: &quot;center&quot;,
+    width: 125,
+    marginTop: 48
+  },
+  textDo: {
+    textAlign: &quot;center&quot;,
+    width: &quot;100%&quot;
+  },
+  containerZl: {
+    height: &quot;100%&quot;,
+    flexGrow: 1,
+    justifyContent: &quot;space-between&quot;
+  },
+  keyboardAvoidingViewBW: {
+    flexGrow: 1
+  },
+  textKj: {
+    textAlign: &quot;center&quot;,
+    width: &quot;100%&quot;
+  },
+  textFieldAB: {
+    height: 82
+  },
+  textField9W: {
+    height: 82
+  },
+  buttonOo: {
+    height: 48,
+    marginBottom: 24,
+    marginTop: 24
+  },
+  containerFi: {
+    marginBottom: 24
+  },
+  touchableTu: {
+    marginBottom: 16
+  }
+});
+
+export default withTheme(RegisterUserScreen);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

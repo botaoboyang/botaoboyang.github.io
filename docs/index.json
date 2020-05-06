@@ -1,0 +1,2628 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Navigation.js",
+    "content": "import { createAppContainer, createSwitchNavigator } from \"react-navigation\";\nimport { createStackNavigator } from \"react-navigation-stack\";\nimport { createBottomTabNavigator } from \"react-navigation-tabs\";\nimport * as Screens from \"./screens\";\nimport React, {Component} from \"react\";\nimport {submitNewTitle} from \"./screens/VideoDetailScreen.js\";\nimport {\n  View,\n  Dimensions,\n  StyleSheet,\n  Text,\n} from \"react-native\";\n\nconst AppNavigator = createSwitchNavigator(\n  {\n    AuthenticationNavigator: createStackNavigator(\n      {\n        LoginScreen: {\n          screen: Screens.LoginScreen,\n          navigationOptions: () => ({ title: \"Login\" })\n        },\n        RegisterUserScreen: {\n          screen: Screens.RegisterUserScreen,\n          navigationOptions: () => ({ title: \"Register User\" })\n        }\n      },\n      {}\n    ),\n    MainNavigator: createBottomTabNavigator(\n      {\n        Main: {\n          screen: Screens.MainScreen,\n          navigationOptions: () => ({ title: \"Main\" })\n        },\n        VideoListNavigator: {\n          navigationOptions: () => ({ tabBarLabel: \"Video List\" }),\n          screen: createStackNavigator(\n            {\n              VideoListScreen: {\n                screen: Screens.VideoListScreen,\n                navigationOptions: () => ({\n                  headerShown: false,\n                  title: \"Video List\",\n                })\n              },\n              VideoDetailScreen: {\n                screen: Screens.VideoDetailScreen,\n                navigationOptions: ({ navigation }) => ({\n                  title: navigation.getParam(\"video_title\"),\n                  //headerRight: <Text onPress= {() => submitNewTitle()}>[Edit]</Text>\n                })\n              }\n            },\n            { initialRouteName: \"VideoListScreen\" }\n          )\n        },\n        // VideoListScreen: {\n        //   screen: Screens.VideoListScreen,\n        //   navigationOptions: () => ({ title: \"Video List\" })\n        // },\n        ProfileScreen: {\n          screen: Screens.ProfileScreen,\n          navigationOptions: () => ({ title: \"Profile\" })\n        },\n        MyVideoList: {\n          screen: Screens.MyVideoList,\n          navigationOptions: () => ({ title: \"MyVideoList\" })\n        }\n      },\n      {}\n    )\n  },\n  {\n    initialRouteName: \"AuthenticationNavigator\"\n  }\n);\n\nconst AppContainer = createAppContainer(AppNavigator);\n\nexport default AppContainer;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/Navigation.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "AppNavigator",
+    "memberof": "src/Navigation.js",
+    "static": true,
+    "longname": "src/Navigation.js~AppNavigator",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/Navigation.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "AppContainer",
+    "memberof": "src/Navigation.js",
+    "static": true,
+    "longname": "src/Navigation.js~AppContainer",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/Navigation.js",
+    "importStyle": "AppContainer",
+    "description": null,
+    "lineNumber": 78,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "src/components/ChangePasswordModal.js",
+    "content": "import React from \"react\";\n\nimport {\n  Text,\n  View,\n  TouchableWithoutFeedback,\n  StyleSheet,\n  TextInput,\n  Keyboard,\n  Alert\n} from \"react-native\";\nimport Modal from \"react-native-modal\";\nimport { withTheme, Container, TextField, TextArea } from \"@draftbit/ui\";\n\nimport PromptButton from \"./PromptButton\";\nimport API from \"../../config/api\";\n\nclass ChangePasswordModal extends React.Component {\n  state = {\n    currentPasswordInput: \"\",\n    newPasswordInput: \"\",\n    confirmPasswordInput: \"\"\n  };\n\n  sleep = ms => {\n    return new Promise(resolve => setTimeout(resolve, ms));\n  };\n\n  changePassword = async () => {\n    const {\n      currentPasswordInput,\n      newPasswordInput,\n      confirmPasswordInput\n    } = this.state;\n    if (newPasswordInput === confirmPasswordInput) {\n      await API.post(\"/changePass\", {\n        oldPass: currentPasswordInput,\n        newPass: newPasswordInput\n      });\n      Alert.alert(\"Password successfully changed!\");\n      await this.sleep(2000)\n      this.props.closeModal()\n    } else {\n      Alert.alert(\"Passwords do not match!\");\n    }\n    this.setState({\n      currentPasswordInput: \"\",\n      newPasswordInput: \"\",\n      confirmPasswordInput: \"\"\n    });\n  };\n\n  render() {\n    const { modalVisible, closeModal } = this.props;\n    const {\n      currentPasswordInput,\n      newPasswordInput,\n      confirmPasswordInput\n    } = this.state;\n    return (\n      <Modal isVisible={modalVisible}>\n        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>\n          <View style={styles.modalContent}>\n            <Text style={styles.headline}>\n              What would you like your new password to be?\n            </Text>\n            <TextField\n              secureTextEntry\n              type=\"solid\"\n              label=\"Current Password\"\n              placeholder=\"Current Password\"\n              keyboardType=\"default\"\n              value={currentPasswordInput}\n              onChangeText={currentPasswordInput =>\n                this.setState({ currentPasswordInput })\n              }\n              style={styles.newPasswordInput}\n            />\n            <TextField\n              secureTextEntry\n              type=\"solid\"\n              label=\"New Password\"\n              placeholder=\"New Password\"\n              keyboardType=\"default\"\n              value={newPasswordInput}\n              onChangeText={newPasswordInput =>\n                this.setState({ newPasswordInput })\n              }\n              style={styles.newPasswordInput}\n            />\n            <TextField\n              secureTextEntry\n              type=\"solid\"\n              label=\"Confirm Password\"\n              placeholder=\"Confirm Password\"\n              keyboardType=\"default\"\n              value={confirmPasswordInput}\n              onChangeText={confirmPasswordInput =>\n                this.setState({ confirmPasswordInput })\n              }\n              style={styles.newPasswordInput}\n            />\n            <PromptButton text=\"Submit\" onPress={this.changePassword} />\n            <PromptButton text=\"Close\" onPress={closeModal} />\n          </View>\n        </TouchableWithoutFeedback>\n      </Modal>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    alignItems: \"flex-end\"\n  },\n  modalContent: {\n    flexDirection: \"column\",\n    backgroundColor: \"rgba(251, 252, 253, 100)\",\n    padding: 22,\n    justifyContent: \"center\",\n    alignItems: \"stretch\",\n    borderRadius: 4,\n    borderColor: \"rgba(90, 69, 255, 100)\",\n    borderWidth: 5\n  },\n  newPasswordInput: {\n    height: 60,\n    marginBottom: 16\n  },\n  picker: {\n    borderColor: \"red\",\n    borderWidth: 3\n  },\n  headline: {\n    fontSize: 20,\n    fontWeight: \"bold\",\n    textAlign: \"center\",\n    marginBottom: 16\n  }\n});\n\nexport default ChangePasswordModal;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/components/ChangePasswordModal.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/components/ChangePasswordModal.js",
+    "static": true,
+    "longname": "src/components/ChangePasswordModal.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/components/ChangePasswordModal.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 112,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "class",
+    "name": "ChangePasswordModal",
+    "memberof": "src/components/ChangePasswordModal.js",
+    "static": true,
+    "longname": "src/components/ChangePasswordModal.js~ChangePasswordModal",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/components/ChangePasswordModal.js",
+    "importStyle": "ChangePasswordModal",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/ChangePasswordModal.js~ChangePasswordModal",
+    "static": false,
+    "longname": "src/components/ChangePasswordModal.js~ChangePasswordModal#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "sleep",
+    "memberof": "src/components/ChangePasswordModal.js~ChangePasswordModal",
+    "static": false,
+    "longname": "src/components/ChangePasswordModal.js~ChangePasswordModal#sleep",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "changePassword",
+    "memberof": "src/components/ChangePasswordModal.js~ChangePasswordModal",
+    "static": false,
+    "longname": "src/components/ChangePasswordModal.js~ChangePasswordModal#changePassword",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/ChangePasswordModal.js~ChangePasswordModal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/ChangePasswordModal.js~ChangePasswordModal#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/components/ContentPicker.js",
+    "content": "import React from \"react\";\nimport RNPickerSelect from \"react-native-picker-select\";\nimport { Card } from \"react-native-elements\";\nimport {\n  Text,\n  View,\n  TouchableOpacity,\n  TouchableWithoutFeedback,\n  StyleSheet,\n  Picker,\n  TextInput,\n  Keyboard\n} from \"react-native\";\nimport Modal from \"react-native-modal\";\nimport {\n  withTheme,\n  Image,\n  Container,\n  Touchable,\n  ScreenContainer,\n  TextField,\n  TextArea,\n  Button\n} from \"@draftbit/ui\";\n\nimport {\n  takePhotoWithCamera,\n  getImageFromCameraRoll,\n  takeVideoWithCamera,\n  getVideoFromCameraRoll\n} from \"../utils\";\nimport PromptButton from \"./PromptButton\"\n\nclass ContentPicker extends React.Component {\n  state = {\n    videoTitle: \"\",\n    videoDiscription: \"\",\n    access: \"\"\n  };\n  updateSelection = choice => {\n    //console.log(\"exevuted update\")\n    //console.log(choice);\n\n    this.setState({ access: choice });\n    //console.log(\"ACCESS BELOW\")\n    //console.log(this.state.access)\n  };\n\n  static defaultProps = {\n    handleContent: () => {},\n    isVideo: false\n  };\n\n  handleContent = async content => {\n    if (content && !content.cancelled) {\n      //this.props.closeModal();\n      content.videoTitle = this.state.videoTitle;\n      content.videoDiscription = this.state.videoDiscription;\n      content.access = this.state.access;\n      //content.videoTitle = this.state.this.props.closeModal();\n      await this.props.handleContent(content);\n    }\n  };\n\n  render() {\n    const { modalVisible, closeModal, isVideo } = this.props;\n    const { placeholder } = \"select your access\";\n    return (\n      <Modal isVisible={modalVisible} style={styles.modalContent}>\n        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>\n          <View>\n            <Card\n              containerStyle={styles.cardStyle}\n              title=\"Please pick public for your video to be visible to everyone and private for it to be visible to yourself only\"\n              titleStyle={styles.title}\n            >\n              <Card>\n                <RNPickerSelect\n                  style={styles.picker}\n                  placeholder={placeholder}\n                  onValueChange={value => this.updateSelection(value)}\n                  items={[\n                    { label: \"Private\", value: \"private\" },\n                    { label: \"Public\", value: \"public\" }\n                  ]}\n                />\n              </Card>\n            </Card>\n            <TextField\n              type=\"solid\"\n              label=\"Video Title\"\n              multiline={true}\n              placeholder=\"Enter your video title\"\n              keyboardType=\"default\"\n              value={this.state.videoTitle}\n              onChangeText={videoTitle => this.setState({ videoTitle })}\n              style={styles.emailInput}\n            />\n            <TextField\n              type=\"solid\"\n              multiline={true}\n              numberOfLines={4}\n              label=\"Video Description\"\n              placeholder=\"Enter your video description\"\n              keyboardType=\"default\"\n              value={this.state.videoDiscription}\n              onChangeText={videoDiscription =>\n                this.setState({ videoDiscription })\n              }\n              style={styles.emailInput}\n            />\n\n            <PromptButton\n              text={isVideo ? \"Take Video\" : \"Take Picture\"}\n              onPress={async () => {\n                if (isVideo) {\n                  const video = await takeVideoWithCamera();\n                  await this.handleContent(video);\n                  return;\n                }\n                const image = await takePhotoWithCamera(true);\n                await this.handleContent(image);\n              }}\n            />\n            <PromptButton\n              text={\n                isVideo\n                  ? \"Select Video From Library\"\n                  : \"Select Image From Library\"\n              }\n              onPress={async () => {\n                if (isVideo) {\n                  const video = await getVideoFromCameraRoll();\n                  await this.handleContent(video);\n                } else {\n                  const image = await getImageFromCameraRoll(true);\n                  await this.handleContent(image);\n                }\n              }}\n            />\n            <PromptButton text=\"Close\" onPress={() => closeModal()} />\n          </View>\n        </TouchableWithoutFeedback>\n      </Modal>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    alignItems: \"flex-end\"\n  },\n  modalContent: {\n    flexDirection: \"column\",\n    // backgroundColor: COLORS.accent,\n    backgroundColor: \"rgba(251, 252, 253, 100)\",\n    padding: 22,\n    justifyContent: \"center\",\n    alignItems: \"stretch\",\n    borderRadius: 4,\n    borderColor: \"rgba(90, 69, 255, 100)\",\n    borderWidth: 5\n  },\n  cardStyle: {\n    flexDirection: \"column\",\n    // backgroundColor: COLORS.accent,\n    backgroundColor: \"rgba(251, 252, 253, 100)\",\n    padding: 10,\n    justifyContent: \"flex-start\",\n    alignItems: \"flex-start\",\n    borderRadius: 4,\n    marginBottom: 25,\n    marginLeft: 2,\n    marginRight: 2,\n    //borderColor: \"rgba(90, 69, 255, 100)\",\n    borderWidth: 1\n  },\n  button: {\n    // backgroundColor: COLORS.primary_text,\n    backgroundColor: \"rgba(90, 69, 255, 100)\",\n    padding: 12,\n    margin: 16,\n    justifyContent: \"center\",\n    alignItems: \"center\",\n    borderRadius: 4,\n    borderColor: \"rgba(0, 0, 0, 0.1)\"\n  },\n  emailInput: {\n    height: 82,\n    marginBottom: 8,\n    borderColor: \"black\"\n  },\n  picker: {\n    borderColor: \"red\",\n    borderWidth: 3\n  },\n  title: {\n    textAlign: \"left\"\n  }\n});\n\nexport default withTheme(ContentPicker);\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/components/ContentPicker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "ContentPicker",
+    "memberof": "src/components/ContentPicker.js",
+    "static": true,
+    "longname": "src/components/ContentPicker.js~ContentPicker",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/components/ContentPicker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/ContentPicker.js~ContentPicker",
+    "static": false,
+    "longname": "src/components/ContentPicker.js~ContentPicker#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "updateSelection",
+    "memberof": "src/components/ContentPicker.js~ContentPicker",
+    "static": false,
+    "longname": "src/components/ContentPicker.js~ContentPicker#updateSelection",
+    "access": "public",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "defaultProps",
+    "memberof": "src/components/ContentPicker.js~ContentPicker",
+    "static": true,
+    "longname": "src/components/ContentPicker.js~ContentPicker.defaultProps",
+    "access": "public",
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "handleContent",
+    "memberof": "src/components/ContentPicker.js~ContentPicker",
+    "static": false,
+    "longname": "src/components/ContentPicker.js~ContentPicker#handleContent",
+    "access": "public",
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/ContentPicker.js~ContentPicker",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/ContentPicker.js~ContentPicker#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/components/ContentPicker.js",
+    "static": true,
+    "longname": "src/components/ContentPicker.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/components/ContentPicker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 149,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/components/PromptButton.js",
+    "content": "import React from \"react\"\nimport {\n  TouchableOpacity,\n  View,\n  Text,\n  StyleSheet\n} from \"react-native\"\n\nconst PromptButton = ({ text, onPress, style }) => (\n  <TouchableOpacity onPress={onPress} style={style}>\n    <View style={styles.button}>\n      <Text>{text}</Text>\n    </View>\n  </TouchableOpacity>\n);\n\nconst styles = StyleSheet.create({\n  button: {\n    backgroundColor: \"rgba(90, 69, 255, 100)\",\n    padding: 12,\n    margin: 16,\n    justifyContent: \"center\",\n    alignSelf: \"stretch\",\n    alignItems: \"center\",\n    borderRadius: 4,\n    borderColor: \"rgba(0, 0, 0, 0.1)\"\n  },\n});\n\nexport default PromptButton;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/components/PromptButton.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/components/PromptButton.js",
+    "static": true,
+    "longname": "src/components/PromptButton.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/components/PromptButton.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "PromptButton",
+    "memberof": "src/components/PromptButton.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/PromptButton.js~PromptButton",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/components/PromptButton.js",
+    "importStyle": "PromptButton",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"text\": *, \"onPress\": *, \"style\": *}"
+        ],
+        "defaultRaw": {
+          "text": null,
+          "onPress": null,
+          "style": null
+        },
+        "defaultValue": "{\"text\":null,\"onPress\":null,\"style\":null}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/components/index.js",
+    "content": "export { default as ContentPicker } from \"./ContentPicker\";\nexport { default as ChangePasswordModal } from \"./ChangePasswordModal\";\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/components/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/screens/LoginScreen.js",
+    "content": "import React from \"react\";\nimport {\n  withTheme,\n  Image,\n  Container,\n  Touchable,\n  ScreenContainer,\n  TextField,\n  Button\n} from \"@draftbit/ui\";\n\nimport { StyleSheet, Text, KeyboardAvoidingView } from \"react-native\";\nimport Images from \"../../config/Images\";\nimport Routes from \"../../config/Routes\";\nimport API from \"../../config/api\";\n\nexport class EmailPasswordLogin extends React.Component {\n  state = {\n    emailInput: \"\",\n    passwordInput: \"\"\n  };\n\n  login = async () => {\n    const { navigation } = this.props;\n    let { emailInput, passwordInput } = this.state;\n\n    // This method is used for testing\n    if (emailInput === \"q\") {\n      emailInput = \"q@q.com\";\n      passwordInput = \"123456\";\n    }\n\n    const res = await API.post(\"/login\", {\n      email: emailInput,\n      password: passwordInput\n    });\n    if (res.data && res.data[\"access_token\"]) {\n      const auth = `Bearer ${res.data[\"access_token\"]}`;\n      API.defaults.headers.common[\"Authorization\"] = auth;\n      navigation.navigate(Routes.Main);\n    } else {\n      alert(\"Oops, something went wrong!\");\n    }\n  };\n\n  createAccountOnPress = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.RegisterUserScreen);\n  };\n\n  render() {\n    const { theme } = this.props;\n\n    return (\n      <ScreenContainer scrollable hasSafeArea>\n        <KeyboardAvoidingView\n          enabled\n          behavior=\"padding\"\n          keyboardVerticalOffset={0}\n          style={styles.keyboardAvoidingView}\n        >\n          <Container\n            elevation={0}\n            useThemeGutterPadding\n            style={styles.logoAppNameContainer}\n          >\n            <Image\n              source={Images.Logo}\n              resizeMode=\"contain\"\n              style={styles.logo}\n            />\n            <Text\n              style={StyleSheet.flatten([\n                styles.appNameText,\n                theme.typography.headline5,\n                { color: theme.colors.primary }\n              ])}\n            >\n              Video App for Teaching (VAT)\n            </Text>\n          </Container>\n          <Container elevation={0} useThemeGutterPadding>\n            <Text\n              style={StyleSheet.flatten([\n                styles.enterCredentialsLabel,\n                theme.typography.overline,\n                { color: theme.colors.medium }\n              ])}\n            >\n              ENTER YOUR CREDENTIALS:\n            </Text>\n            <TextField\n              type=\"solid\"\n              label=\"Email Address\"\n              placeholder=\"joe@example.com\"\n              keyboardType=\"email-address\"\n              value={this.state.emailInput}\n              onChangeText={emailInput => this.setState({ emailInput })}\n              autoCapitalize=\"none\"\n              style={styles.emailInput}\n            />\n            <TextField\n              secureTextEntry\n              value={this.state.passwordInput}\n              onChangeText={passwordInput => this.setState({ passwordInput })}\n              label=\"Password\"\n              type=\"solid\"\n              placeholder=\"**********\"\n              style={styles.passwordInput}\n            />\n            <Button\n              type=\"solid\"\n              color={theme.colors.primary}\n              style={styles.signInButton}\n              onPress={this.login}\n            >\n              SIGN IN\n            </Button>\n          </Container>\n          <Container\n            useThemeGutterPadding\n            elevation={0}\n            style={styles.bottomContainer}\n          >\n            <Touchable\n              style={styles.createAccountTouchable}\n              onPress={this.createAccountOnPress}\n            >\n              <Text\n                style={StyleSheet.flatten([\n                  styles.createAccountText,\n                  theme.typography.button,\n                  { color: theme.colors.primary }\n                ])}\n              >\n                Create Account\n              </Text>\n            </Touchable>\n            <Text\n              style={StyleSheet.flatten([\n                styles.legalText,\n                theme.typography.caption,\n                { color: theme.colors.light }\n              ])}\n            >\n              By tapping \"Sign In\", you agree to our Terms of Service, Privacy\n              Policy and Cookie Policy.{\" \"}\n            </Text>\n          </Container>\n        </KeyboardAvoidingView>\n      </ScreenContainer>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  keyboardAvoidingView: {\n    flexGrow: 1,\n    justifyContent: \"space-around\"\n  },\n  logoAppNameContainer: {\n    alignItems: \"center\"\n  },\n  logo: {\n    width: 100,\n    height: 100\n  },\n  appNameText: {\n    width: \"100%\",\n    textAlign: \"center\"\n  },\n  enterCredentialsLabel: {\n    marginBottom: 16,\n    textAlign: \"center\",\n    width: \"100%\"\n  },\n  emailInput: {\n    height: 82,\n    marginBottom: 8\n  },\n  passwordInput: {\n    height: 82\n  },\n  signInButton: {\n    height: 48,\n    marginBottom: 24,\n    marginTop: 24\n  },\n  bottomContainer: {\n    justifyContent: \"flex-end\"\n  },\n  createAccountTouchable: {\n    width: \"100%\"\n  },\n  createAccountText: {\n    textAlign: \"center\"\n  },\n  legalText: {\n    marginTop: 24,\n    textAlign: \"center\"\n  }\n});\n\nexport default withTheme(EmailPasswordLogin);\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/LoginScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "EmailPasswordLogin",
+    "memberof": "src/screens/LoginScreen.js",
+    "static": true,
+    "longname": "src/screens/LoginScreen.js~EmailPasswordLogin",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/LoginScreen.js",
+    "importStyle": "{EmailPasswordLogin}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/LoginScreen.js~EmailPasswordLogin",
+    "static": false,
+    "longname": "src/screens/LoginScreen.js~EmailPasswordLogin#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "login",
+    "memberof": "src/screens/LoginScreen.js~EmailPasswordLogin",
+    "static": false,
+    "longname": "src/screens/LoginScreen.js~EmailPasswordLogin#login",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "createAccountOnPress",
+    "memberof": "src/screens/LoginScreen.js~EmailPasswordLogin",
+    "static": false,
+    "longname": "src/screens/LoginScreen.js~EmailPasswordLogin#createAccountOnPress",
+    "access": "public",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/LoginScreen.js~EmailPasswordLogin",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/LoginScreen.js~EmailPasswordLogin#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/LoginScreen.js",
+    "static": true,
+    "longname": "src/screens/LoginScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/LoginScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 156,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/screens/MainScreen.js",
+    "content": "import React from \"react\";\nimport { ScreenContainer, Button } from \"@draftbit/ui\";\n\nimport Routes from \"../../config/Routes\";\n\nclass MainScreen extends React.Component {\n  logout = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.LoginScreen);\n  };\n\n  toProfile = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.ProfileScreen);\n  };\n\n  render() {\n    return (\n      <ScreenContainer hasSafeArea>\n        <Button type=\"solid\" onPress={this.logout}>\n          Logout\n        </Button>\n        <Button type=\"solid\" onPress={this.toProfile}>\n          Profile\n        </Button>\n      </ScreenContainer>\n    );\n  }\n}\n\nexport default MainScreen;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/MainScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "class",
+    "name": "MainScreen",
+    "memberof": "src/screens/MainScreen.js",
+    "static": true,
+    "longname": "src/screens/MainScreen.js~MainScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/MainScreen.js",
+    "importStyle": "MainScreen",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "logout",
+    "memberof": "src/screens/MainScreen.js~MainScreen",
+    "static": false,
+    "longname": "src/screens/MainScreen.js~MainScreen#logout",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "toProfile",
+    "memberof": "src/screens/MainScreen.js~MainScreen",
+    "static": false,
+    "longname": "src/screens/MainScreen.js~MainScreen#toProfile",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/MainScreen.js~MainScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/MainScreen.js~MainScreen#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/screens/MyVideoList.js",
+    "content": "import React from \"react\";\nimport {\n  Text,\n  View,\n  FlatList,\n  TouchableHighlight,\n  StatusBar,\n  Dimensions,\n  StyleSheet\n} from \"react-native\";\nimport { Icon, Card } from \"react-native-elements\";\nimport { Video } from \"expo-av\";\nimport API from \"../../config/api\";\nimport { getFileFromS3 } from \"../utils\";\nimport { ScreenContainer } from \"@draftbit/ui\";\nimport Routes from \"../../config/Routes\";\n\nconst { width } = Dimensions.get(\"window\");\nconst videoHeight = (width / 16) * 9;\n\nclass MyVideoList extends React.Component {\n  state = {\n    videos: [],\n    refreshing: false\n  };\n\n  componentDidMount() {\n    StatusBar.setHidden(false);\n    this.fetchVideos();\n  }\n\n  fetchVideos = async () => {\n    this.setState({ refreshing: true });\n    const res = await API.post(\"/video/my_list\", { pageSize: 50, pageNo: 0 });\n    const {\n      data: { video_list }\n    } = res;\n\n    for (const video of video_list) {\n      video.uri = await getFileFromS3(video.aws_key, video.aws_access);\n    }\n    this.setState({ videos: video_list, refreshing: false });\n  };\n\n  _toDetailScreen = item => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.VideoDetailScreen, {\n      video_id: item.id,\n      video_title: item.title,\n      editButton: true\n    });\n  };\n\n  \n\n  _renderItem = ({ item }) => {\n    return (\n      // <Card style={styles.video}>\n      <View style={styles.cell}>\n        <Video\n          source={{ uri: item.uri }}\n          style={styles.video}\n          useNativeControls\n        />\n        <TouchableHighlight\n          style={{ flex: 1 }}\n          onPress={() => this._toDetailScreen(item)}\n          underlayColor=\"white\"\n        >\n          <View style={styles.video_info}>\n            <View style={styles.textContainer}>\n              <View style={styles.titleContainer}>\n                <Text style={styles.titleText}>{item.title}</Text>\n              </View>\n              <View style={styles.emailContainer}>\n                <Text style={styles.emailText}>{item.user_email}</Text>\n              </View>\n            </View>\n            <View style={styles.iconContainer}>\n              <Icon size={30} name=\"subject\" />\n            </View>\n          </View>\n        </TouchableHighlight>\n      </View>\n      // </Card>\n    );\n  };\n\n  render() {\n    const { videos } = this.state;\n    return (\n      <ScreenContainer hasSafeArea style={styles.container}>\n        <FlatList\n          style={{ flex: 1 }}\n          data={videos}\n          renderItem={this._renderItem}\n          keyExtractor={item => `${item.id}-${item.aws_key}`}\n          onRefresh={() => this.fetchVideos()}\n          refreshing={this.state.refreshing}\n          //ListFooterComponent={\n          //  <TouchableOpacity onPress={this.loadvideos}>\n          //    <Text style={{ padding: 30 }}>Load more</Text>\n          //  </TouchableOpacity>\n          //}\n        />\n      </ScreenContainer>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: \"#fff\"\n  },\n  cell: {\n    width: width,\n    height: videoHeight + 70,\n    backgroundColor: \"#eee\",\n    overflow: \"hidden\",\n    borderBottomColor: \"black\",\n    borderBottomWidth: 5,\n    marginBottom: 10\n  },\n  video: {\n    width: width - 10,\n    height: videoHeight - 10,\n    alignSelf: \"center\"\n  },\n  video_info: {\n    flex: 1,\n    marginLeft: 20,\n    marginRight: 10,\n    flexDirection: \"row\"\n  },\n  textContainer: {\n    flex: 1,\n    flexDirection: \"column\"\n  },\n  iconContainer: {\n    width: 70,\n    height: 30,\n    flexDirection: \"row-reverse\",\n    alignSelf: \"center\",\n    justifyContent: \"space-between\"\n  },\n\n  titleContainer: {\n    flex: 3,\n    justifyContent: \"center\"\n  },\n  titleText: {\n    fontSize: 18,\n    fontWeight: \"500\"\n  },\n  emailContainer: {\n    flex: 2,\n    justifyContent: \"center\"\n  },\n  emailText: {\n    color: \"#444\"\n  }\n});\n\nexport default MyVideoList;",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/MyVideoList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "width",
+    "memberof": "src/screens/MyVideoList.js",
+    "static": true,
+    "longname": "src/screens/MyVideoList.js~width",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/MyVideoList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "videoHeight",
+    "memberof": "src/screens/MyVideoList.js",
+    "static": true,
+    "longname": "src/screens/MyVideoList.js~videoHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/MyVideoList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/MyVideoList.js",
+    "static": true,
+    "longname": "src/screens/MyVideoList.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/MyVideoList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 111,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "class",
+    "name": "MyVideoList",
+    "memberof": "src/screens/MyVideoList.js",
+    "static": true,
+    "longname": "src/screens/MyVideoList.js~MyVideoList",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/MyVideoList.js",
+    "importStyle": "MyVideoList",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 87,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "fetchVideos",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#fetchVideos",
+    "access": "public",
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "_toDetailScreen",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#_toDetailScreen",
+    "access": "private",
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "member",
+    "name": "_renderItem",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#_renderItem",
+    "access": "private",
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/MyVideoList.js~MyVideoList",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/MyVideoList.js~MyVideoList#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 89,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "src/screens/ProfileScreen.js",
+    "content": "import React from \"react\";\nimport {\n  withTheme,\n  ScreenContainer,\n  Image,\n  Button,\n  IconButton\n} from \"@draftbit/ui\";\nimport {StyleSheet, Text, View, ActivityIndicator, Alert, StatusBar} from \"react-native\";\nimport { Rating } from \"react-native-ratings\";\nimport { uploadVideo } from \"../utils\";\nimport Images from \"../../config/Images\";\nimport Routes from \"../../config/Routes\";\nimport { ContentPicker, ChangePasswordModal } from \"../components\";\nimport API from \"../../config/api\";\n\nclass ProfileScreen extends React.Component {\n  state = {\n    modalVisible: false,\n    changePasswordModalVisible: false,\n    uploadFeedback: false,\n    profile: {}\n  };\n\n  componentDidMount() {\n    this.fetchProfile();\n  }\n\n  fetchProfile = async () => {\n    const res = await API.get(\"/detail\");\n    this.setState({profile: res.data});\n    console.log(res.data);\n  }\n\n  upload = async content => {\n    this.setState({ modalVisible: false });\n    this.setState({ uploadFeedback: true });\n    await uploadVideo(content);\n    Alert.alert(\n      \"Success!\",\n      \"Your video was successfully uploaded!\",\n      [{ text: \"OK\", onPress: () => console.log(\"ok pressed\") }],\n      { cancelable: false }\n    );\n    this.setState({ uploadFeedback: false });\n  };\n\n  logout = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.LoginScreen);\n  };\n\n  goToMyVideos = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.MyVideoList);\n  };\n\n  render() {\n\n    const { theme } = this.props;\n    const { navigation } = this.props;\n\n    const { modalVisible, changePasswordModalVisible } = this.state;\n    return (\n      <ScreenContainer hasSafeArea style={styles.screen}>\n        <IconButton\n          style={styles.settings}\n          icon=\"settings\"\n          color={theme.colors.primary}\n          onPress={this.logout}\n        />\n        <Image source={Images.Logo} resizeMode=\"contain\" style={styles.pic} />\n        <Text style={styles.email}>{this.state.profile.email}</Text>\n        <Button\n          style={styles.button}\n          type=\"solid\"\n          onPress={() => this.setState({ modalVisible: true })}\n        >\n          Upload Video\n        </Button>\n\n\n        <Button\n          type=\"solid\"\n          onPress={this.goToMyVideos}\n        >\n          My Video List\n        </Button>\n\n\n        <Button\n          style={styles.button}\n          type=\"solid\"\n          onPress={() => this.setState({ changePasswordModalVisible: true })}\n        >\n          Change Password\n        </Button>\n\n        {this.state.uploadFeedback ? (\n          <Text style={{ fontSize: 25, color: \"#000\", textAlign: \"center\" }}>\n            {\" \"}\n            Please wait while your video uploads!{\" \"}\n          </Text>\n        ) : null}\n        <ActivityIndicator\n          size=\"large\"\n          color=\"#0000ff\"\n          animating={this.state.uploadFeedback}\n        />\n        <View style={{flex: 1, alignSelf: \"stretch\"}}>\n          <ProfileRating ratingName='Content' ratingValue={this.state.profile.content}/>\n          <ProfileRating ratingName='Language' ratingValue={this.state.profile.lang}/>\n          <ProfileRating ratingName='Visual' ratingValue={this.state.profile.visual}/>\n          <ProfileRating ratingName='Clarity' ratingValue={this.state.profile.clarity}/>\n          <ProfileRating ratingName='Brevity' ratingValue={this.state.profile.brevity}/>\n        </View>\n        <ContentPicker\n          modalVisible={modalVisible}\n          closeModal={() => this.setState({ modalVisible: false })}\n          isVideo\n          handleContent={content => this.upload(content)}\n        />\n        <ChangePasswordModal\n          modalVisible={changePasswordModalVisible}\n          closeModal={() =>\n            this.setState({ changePasswordModalVisible: false })\n          }\n        />\n      </ScreenContainer>\n    );\n  }\n}\n\nfunction ProfileRating(props) {\n  const {ratingName, ratingValue} = props\n  return (\n    <View style={styles.ratingBox}>\n      <Text style={styles.ratingText}>{ratingName}</Text>\n      <Rating\n        style={styles.rating}\n        startingValue={ratingValue}\n        imageSize={30}\n        readonly={true}\n      />\n    </View>\n  )\n}\n\nconst styles = StyleSheet.create({\n  settings: {\n    position: \"absolute\",\n    top: 10,\n    right: 10\n  },\n  screen: {\n    alignItems: \"center\"\n  },\n  email: {\n    fontWeight: \"bold\",\n    fontSize: 20\n  },\n  pic: {\n    width: 100,\n    height: 100\n  },\n  MainContainer: {\n    // Setting up View inside content in Vertically center.\n    justifyContent: \"center\",\n    flex: 1,\n    margin: 10\n  },\n  button: {\n    margin: 4\n  },\n  ratingBox: {\n    flex: 1,\n    alignItems: \"center\",\n    flexDirection: \"row\",\n    justifyContent: \"center\"\n  },\n  ratingText: {\n    flex: 1,\n    fontSize: 16,\n    textAlign: \"right\"\n  },\n  rating: {\n    flex: 2\n  }\n});\n\nexport default withTheme(ProfileScreen);\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/ProfileScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "class",
+    "name": "ProfileScreen",
+    "memberof": "src/screens/ProfileScreen.js",
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 97,
+    "kind": "member",
+    "name": "fetchProfile",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#fetchProfile",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "member",
+    "name": "upload",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#upload",
+    "access": "public",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "member",
+    "name": "logout",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#logout",
+    "access": "public",
+    "description": null,
+    "lineNumber": 48,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "goToMyVideos",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#goToMyVideos",
+    "access": "public",
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/ProfileScreen.js~ProfileScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/ProfileScreen.js~ProfileScreen#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "function",
+    "name": "ProfileRating",
+    "memberof": "src/screens/ProfileScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~ProfileRating",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 134,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/ProfileScreen.js",
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 149,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "name": "src/screens/RegisterUserScreen.js",
+    "content": "import React from \"react\";\nimport {\n  withTheme,\n  TextField,\n  Image,\n  Container,\n  ScreenContainer,\n  Button,\n  Touchable\n} from \"@draftbit/ui\";\nimport { StyleSheet, Text, KeyboardAvoidingView, Alert } from \"react-native\";\n\nimport Images from \"../../config/Images\";\nimport Routes from \"../../config/Routes\";\nimport API from \"../../config/api\";\n\nclass RegisterUserScreen extends React.Component {\n  state = {\n    emailInput: \"\",\n    passwordInput: \"\",\n    confirmPasswordInput: \"\"\n  };\n\n  registerUser = () => {\n    const { navigation } = this.props;\n    const { emailInput, passwordInput, confirmPasswordInput } = this.state;\n\n    if (passwordInput === confirmPasswordInput) {\n      // Create account\n      API.post(\"/register\", {\n        email: emailInput,\n        password: passwordInput\n      }).then(\n        res => {\n          console.log(res.data);\n          console.log(res.status);\n          console.log(res.data.errorMsg);\n          // If user error, by default .then needs to have status 200\n          if (res.data.errorMsg) {\n            Alert.alert(\n              \"Registration Error\",\n              res.data.errorMsg,\n              [{ text: \"OK\", onPress: () => console.log(\"OK Pressed\") }],\n              { cancelable: false }\n            );\n            navigation.navigate(Routes.LoginScreen);\n          }\n\n          // status 200 and no error message meaning success\n          else {\n            Alert.alert(\n              \"Registration successfull\",\n              \"You have successfully registered please log in\",\n              [{ text: \"OK\", onPress: () => console.log(\"OK Pressed\") }],\n              { cancelable: false }\n            );\n            navigation.navigate(Routes.LoginScreen);\n          }\n          // status not 200 something went wrong on server display as an uknown error\n        },\n        error => {\n          console.log(error);\n          Alert.alert(\n            \"Unknown Error\",\n            \"Oops Something went wrong! Please try again!\",\n            [{ text: \"OK\", onPress: () => console.log(\"OK Pressed\") }],\n            { cancelable: false }\n          );\n          //navigation.navigate(Routes.RegisterUserScreen)\n        }\n      );\n    } else {\n      alert(\"Password fields must match! Please try again\");\n    }\n  };\n\n  goToLogin = () => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.LoginScreen);\n  };\n\n  render() {\n    const { theme } = this.props;\n\n    return (\n      <ScreenContainer hasSafeArea={true} scrollable={true}>\n        <KeyboardAvoidingView\n          enabled={true}\n          behavior=\"position\"\n          keyboardVerticalOffset={20}\n          style={styles.keyboardAvoidingViewBW}\n        >\n          <Container\n            elevation={0}\n            useThemeGutterPadding={true}\n            style={styles.containerZl}\n          >\n            <Image\n              source={Images.Logo}\n              resizeMode=\"contain\"\n              style={styles.image4O}\n            />\n            <Container elevation={0} useThemeGutterPadding={true}>\n              <TextField\n                onChangeText={emailInput => this.setState({ emailInput })}\n                value={this.state.emailInput}\n                type=\"underline\"\n                label=\"Email\"\n                keyboardType=\"email-address\"\n                autoCapitalize=\"none\"\n                style={StyleSheet.flatten([\n                  styles.textFieldDg,\n                  { borderColor: theme.colors.surface }\n                ])}\n              />\n              <TextField\n                secureTextEntry={true}\n                onChangeText={passwordInput => this.setState({ passwordInput })}\n                keyboardType=\"default\"\n                type=\"underline\"\n                label=\"Password\"\n                value={this.state.passwordInput}\n                style={styles.textFieldAB}\n              />\n              <TextField\n                onChangeText={confirmPasswordInput =>\n                  this.setState({ confirmPasswordInput })\n                }\n                label=\"Confirm Password\"\n                value={this.state.confirmPasswordInput}\n                type=\"underline\"\n                keyboardType=\"default\"\n                secureTextEntry={true}\n                style={styles.textField9W}\n              />\n              <Button\n                color={theme.colors.primary}\n                type=\"solid\"\n                style={styles.buttonOo}\n                onPress={this.registerUser}\n              >\n                Create Account\n              </Button>\n              <Touchable style={styles.touchableTu} onPress={this.goToLogin}>\n                <Text\n                  style={StyleSheet.flatten([\n                    styles.textKj,\n                    theme.typography.button,\n                    { color: theme.colors.primary }\n                  ])}\n                >\n                  Already Registered? Sign In\n                </Text>\n              </Touchable>\n            </Container>\n            <Container\n              useThemeGutterPadding={true}\n              elevation={0}\n              style={StyleSheet.flatten([\n                styles.containerFi,\n                { backgroundColor: theme.colors.surface }\n              ])}\n            >\n              <Text\n                style={StyleSheet.flatten([\n                  styles.textDo,\n                  theme.typography.caption,\n                  { color: theme.colors.light }\n                ])}\n              >\n                By creating an account, you agree to our Terms of Service,\n                Privacy Policy and Cookie Policy.{\" \"}\n              </Text>\n            </Container>\n          </Container>\n        </KeyboardAvoidingView>\n      </ScreenContainer>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  textFieldDg: {\n    height: 82\n  },\n  image4O: {\n    height: 125,\n    alignSelf: \"center\",\n    width: 125,\n    marginTop: 48\n  },\n  textDo: {\n    textAlign: \"center\",\n    width: \"100%\"\n  },\n  containerZl: {\n    height: \"100%\",\n    flexGrow: 1,\n    justifyContent: \"space-between\"\n  },\n  keyboardAvoidingViewBW: {\n    flexGrow: 1\n  },\n  textKj: {\n    textAlign: \"center\",\n    width: \"100%\"\n  },\n  textFieldAB: {\n    height: 82\n  },\n  textField9W: {\n    height: 82\n  },\n  buttonOo: {\n    height: 48,\n    marginBottom: 24,\n    marginTop: 24\n  },\n  containerFi: {\n    marginBottom: 24\n  },\n  touchableTu: {\n    marginBottom: 16\n  }\n});\n\nexport default withTheme(RegisterUserScreen);\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/RegisterUserScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 105,
+    "kind": "class",
+    "name": "RegisterUserScreen",
+    "memberof": "src/screens/RegisterUserScreen.js",
+    "static": true,
+    "longname": "src/screens/RegisterUserScreen.js~RegisterUserScreen",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/RegisterUserScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/RegisterUserScreen.js~RegisterUserScreen",
+    "static": false,
+    "longname": "src/screens/RegisterUserScreen.js~RegisterUserScreen#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "member",
+    "name": "registerUser",
+    "memberof": "src/screens/RegisterUserScreen.js~RegisterUserScreen",
+    "static": false,
+    "longname": "src/screens/RegisterUserScreen.js~RegisterUserScreen#registerUser",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "member",
+    "name": "goToLogin",
+    "memberof": "src/screens/RegisterUserScreen.js~RegisterUserScreen",
+    "static": false,
+    "longname": "src/screens/RegisterUserScreen.js~RegisterUserScreen#goToLogin",
+    "access": "public",
+    "description": null,
+    "lineNumber": 77,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/RegisterUserScreen.js~RegisterUserScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/RegisterUserScreen.js~RegisterUserScreen#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 82,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/RegisterUserScreen.js",
+    "static": true,
+    "longname": "src/screens/RegisterUserScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/RegisterUserScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 182,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "src/screens/VideoDetailScreen.js",
+    "content": "import React from \"react\";\nimport Modal from \"react-native-modal\";\nimport { Card } from \"react-native-elements\";\nimport { Rating } from \"react-native-ratings\";\nimport { AirbnbRating } from \"react-native-ratings\";\nimport {\n  View,\n  Dimensions,\n  StyleSheet,\n  Text,\n  FlatList,\n  StatusBar,\n  TouchableWithoutFeedback,\n  Keyboard,\n  ScrollView,\n  KeyboardAvoidingView,\n  Alert\n} from \"react-native\";\n\nimport { ScreenContainer,Button, TextField, RowBodyCheckbox } from \"@draftbit/ui\";\nimport API from \"../../config/api\";\nimport { getFileFromS3 } from \"../utils\";\nimport { Video } from \"expo-av\";\nimport { parseDate } from \"../utils\";\n\nconst videoWidth = Dimensions.get(\"window\").width;\nconst videoHeight = (videoWidth / 16) * 9;\n\n\nclass VideoDetailScreen extends React.Component {\n  state = {\n    video_detail: {},\n    modal: false,\n    content: 0,\n    language: 0,\n    visuals: 0,\n    clarity: 0,\n    brevity: 0,\n    comment: \"\",\n    editModal: false,\n    editTitle: \"\",\n    editDescription: \"\",\n    dialogVisible:false\n  };\n\n  componentDidMount() {\n    StatusBar.setHidden(false);\n    this.fetchDetail();\n  }\n\n  alertPopUp (mesg) {\n    var message= \"\"\n    if (mesg ==1){\n      message=\"Your comment and ratings were successfully posted\"\n    }\n    else{\n      message=\"Your changes were saved!\"\n    }\n    Alert.alert(\n      \"Success!\",\n      message,\n      [{ text: \"OK\", onPress: () => { this.setState({ modal: false })} }],\n      { cancelable: false }\n    );\n  }\n\n fetchDetail = async () => {\n    const { navigation } = this.props;\n    const res = await API.get(\n      `/video/detail/${navigation.getParam(\"video_id\")}`\n    );\n    const video_detail = res.data;\n\n    video_detail.uri = await getFileFromS3(\n      video_detail.aws_key,\n      video_detail.aws_access\n    );\n    this.setState({ video_detail });\n    //setting the description for the edit box \n    this.setState({ editDescription: this.state.video_detail.description })\n    this.setState({ editTitle: this.state.video_detail.title})\n\n  };\n\n  _renderItem = ({ item }) => {\n    return (\n      <Card>\n        <Text style={styles.comment_user}>{item.user_email}</Text>\n        <Text style={styles.comment}>{item.comment}</Text>\n        <CommentRating rating=\"Content\" value={item.content} />\n        <CommentRating rating=\"Language\" value={item.lang} />\n        <CommentRating rating=\"Visuals\" value={item.visual} />\n        <CommentRating rating=\"Clarity\" value={item.clarity} />\n        <CommentRating rating=\"Brevity\" value={item.brevity} />\n      </Card>\n    );\n  };\n\n\n  submitCommentRating = async () => {\n    const { navigation } = this.props;\n    let { content, language, visuals, clarity, brevity } = this.state;\n\n    const res = await API.post(\"/comment\", {\n      video_id: navigation.getParam(\"video_id\"),\n      comment: this.state.comment,\n      content: content,\n      lang: language,\n      visual: visuals,\n      clarity: clarity,\n      brevity: brevity\n    });\n    //this.setState({ modal: false });\n    this.fetchDetail();\n    this.alertPopUp(1);  \n  };\n  \n  testingVariables(acess){\n    // Testing that correct variables are beeing sent to server for edit description \n    console.log('new description below')\n    console.log(this.state.editDescription)\n    console.log('new title below')\n    console.log(this.state.editTitle)\n    console.log('aws key below')\n    console.log(this.state.video_detail.aws_key);\n    console.log('video access below')\n    console.log(acess) \n  }\n\n  submitNewDescriptionTitle = async () => {\n    this.setState({editModal: false})\n    const { navigation } = this.props;\n    var acess=\"\";\n\n    if(this.state.video_detail.is_public == '1'){\n      acess='public'\n    } \n    else{\n      acess='private'\n    }\n    const res = await API.post(\"/video/changeDescription\", {\n      description: this.state.editDescription,\n      aws_access: acess,\n      aws_key: this.state.video_detail.aws_key\n    });\n\n    const res1 = await API.post(\"/video/changeTitle\", {\n      title: this.state.editTitle,\n      aws_access: acess,\n      aws_key: this.state.video_detail.aws_key\n    });\n\n    navigation.setParams({ video_title: this.state.editTitle })\n    this.fetchDetail();  \n    this.alertPopUp(0);\n  };\n \n\n  render() {\n    return (\n      <ScreenContainer hasSafeArea style={styles.container}>\n        <Video\n          style={{ width: videoWidth, height: videoHeight }}\n          source={{ uri: this.state.video_detail.uri }}\n          useNativeControls\n        />\n\n        <FlatList\n          style={{ flex: 1 }}\n          data={this.state.video_detail.comments}\n          renderItem={this._renderItem}\n          ListHeaderComponent={Description(this)}\n          // keyExtractor={item => `${item.video_id}-${item.aws_key}`}\n        />\n\n        <Modal isVisible={this.state.modal}>\n          <TouchableWithoutFeedback onPress={Keyboard.dismiss}>\n            <ScrollView style ={styles.modalContent}>\n              \n                <TextField\n                  type=\"solid\"\n                  label=\"Comment\"\n                  multiline={true}\n                  placeholder=\"Enter your comment for the video\"\n                  keyboardType=\"default\"\n                  value={this.state.comment}\n                  onChangeText={comment => this.setState({ comment })}\n                  style={styles.emailInput}\n                />\n                <Text style={styles.ratingLabels}>Content</Text>\n                <AirbnbRating\n                  showRating={false}\n                  fractions={0}\n                  defaultRating={0}\n                  onFinishRating={r => this.setState({ content: r })}\n                />\n                <Text style={styles.ratingLabels}>Language</Text>\n                <AirbnbRating\n                  showRating={false}\n                  fractions={0}\n                  defaultRating={0}\n                  onFinishRating={r => this.setState({ language: r })}\n                />\n                <Text style={styles.ratingLabels}>Visuals</Text>\n                <AirbnbRating\n                  showRating={false}\n                  fractions={0}\n                  defaultRating={0}\n                  onFinishRating={r => this.setState({ visuals: r })}\n                />\n                <Text style={styles.ratingLabels}>Clarity</Text>\n                <AirbnbRating\n                  showRating={false}\n                  fractions={0}\n                  defaultRating={0}\n                  onFinishRating={r => this.setState({ clarity: r })}\n                />\n                <Text style={styles.ratingLabels}>Brevity</Text>\n                <AirbnbRating\n                  showRating={false}\n                  fractions={0}\n                  defaultRating={0}\n                  onFinishRating={r => this.setState({ brevity: r })}\n                />\n\n                <Button\n                  type=\"solid\"\n                  //color={theme.colors.primary}\n                  style={styles.submitButton}\n                  onPress={this.submitCommentRating}\n                >\n                  Submit your rating\n                </Button>\n\n                <Button\n                  type=\"solid\"\n                  //color={theme.colors.primary}\n                  style={styles.cancelButton}\n                  // to be implemened\n                  onPress={() => this.setState({ modal: false })}\n                >\n                  Cancel\n                </Button>\n              \n            </ScrollView>\n          </TouchableWithoutFeedback>\n        </Modal>\n      \n        <Modal isVisible={this.state.editModal}>\n        <View style = {styles.modalContent}>\n\n        \n        <TextField\n                  type=\"solid\"\n                  label=\"New Title\"\n                  multiline={true}\n                  placeholder=\"Enter your new title for the video\"\n                  keyboardType=\"default\"\n                  value={this.state.editTitle}\n                  onChangeText={editTitle => this.setState({ editTitle })}\n                  style={styles.modalTextField}\n                />\n        <TextField\n                  type=\"solid\"\n                  label=\"New Description\"\n                  multiline={true}\n                  placeholder=\"Enter your new description for the video\"\n                  keyboardType=\"default\"\n                  value={this.state.editDescription}\n                  onChangeText={editDescription => this.setState({ editDescription })}\n                  style={styles.modalTextField}\n                />\n        <Button\n                type=\"solid\"\n                //color={theme.colors.primary}\n                style={styles.submitButton}\n                onPress={this.submitNewDescriptionTitle}\n              >\n                Submit\n              </Button>\n\n         <Button\n                type=\"solid\"\n                //color={theme.colors.primary}\n                style={styles.cancelButton}\n                // to be implemened\n                onPress={() => Alert.alert(\n                  \"Warning!\",\n                  \"Are you sure you want to Cancel? Your changes will not be saved!\",\n                  [\n                    { text: \"Yes\", onPress: () => this.setState({ editModal:false}),\n                  style: \"cancel\"},\n                  { text: \"No\" }\n                ],\n                  \n                  { cancelable: false }\n                )}\n              >\n                Cancel\n              </Button>\n            \n              </View>\n        </Modal>\n      </ScreenContainer>\n    );\n  }\n}\n\nfunction CommentRating(props) {\n  return (\n    <View style={styles.commentRatingContainer}>\n      <View style={{ flex: 1, alignItems: \"flex-start\" }}>\n        <Text>{props.rating}</Text>\n      </View>\n      <View style={{ flex: 3, alignItems: \"flex-start\" }}>\n        <Rating\n          startingValue={props.value}\n          imageSize={15}\n          showRating={false}\n          readonly={true}\n        />\n      </View>\n    </View>\n  );\n}\n\nfunction Description(_this) {\n  const { navigation } = _this.props;\n  const video_detail = _this.state.video_detail;\n  const editButtonStatus = _this.state.editButton;\n  return (\n    <View style={styles.descriptionContainer}>\n      <Text>\n\n        {video_detail.user_email} {parseDate(video_detail.upload_time)}\n\n      </Text>\n      <Card>\n      <View style={styles.descContainer}>\n      <Text style={styles.descriptionTitle}>Description</Text>\n      {navigation.getParam(\"editButton\") && <Text\n        type=\"solid\"\n        style={styles.editTitle}\n        onPress={() => _this.setState({ editModal: true })}\n      >\n        [Edit Title and Description]\n      </Text> }\n      </View>\n      \n      <Text>{video_detail.description}</Text>\n      </Card>\n      <Button\n        type=\"solid\"\n        style={styles.postCommentButton}\n        onPress={() => _this.setState({ modal: true })}\n      >\n        Rate Video and Comment\n      </Button>\n      <Text style={styles.descriptionTitle}>Comments</Text>\n      \n    </View>\n  );\n}\n\n\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: \"#fff\"\n  },\n  modalTextField:{\n    margin:10\n  },\n\n  submitButton: {\n    margin: 10,\n    backgroundColor: \"green\"\n  },\n  cancelButton: {\n    margin: 10,\n    backgroundColor: \"red\"\n  },\n\n  videoContainer: {\n    width: videoWidth,\n    height: videoHeight,\n    borderColor: \"black\",\n    borderWidth: 4\n  },\n  descContainer:{\n  flex:1,\n  flexDirection: \"row\",\n  justifyContent: \"space-between\"\n  },\n  descriptionContainer: {\n    padding: 10\n  },\n  descriptionTitle: {\n    fontWeight: \"bold\",\n    lineHeight: 30\n  },\n  postCommentButton: {\n    height: 44,\n    marginTop: 10\n  },\n  editButton: {\n    height: 40,\n    padding:0,\n    width:10,\n    marginTop: 5\n  },\n  editTitle: {\n    textDecorationLine: 'underline'\n  },\n  modalContent: {\n    flexDirection: \"column\",\n    backgroundColor: \"rgba(251, 252, 253, 100)\",\n    padding: 22,\n    //justifyContent: \"center\",\n    //alignItems: \"stretch\",\n    borderRadius: 4,\n    borderColor: \"rgba(90, 69, 255, 100)\",\n    borderWidth: 5\n  },\n  commentRatingContainer: {\n    flex: 1,\n    flexDirection: \"row\"\n  },\n  comment_user: {\n    fontSize: 14,\n    fontWeight: \"400\",\n    color: \"#666666\"\n  },\n  comment: {\n    marginTop: 3,\n    marginBottom: 3,\n    fontSize: 18,\n    fontWeight: \"500\"\n  },\n  ratingLabels: {\n    textAlign: \"center\",\n    fontSize: 18,\n    fontWeight: \"bold\"\n  }\n});\nexport default VideoDetailScreen;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/VideoDetailScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "videoWidth",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~videoWidth",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "videoHeight",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~videoHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "CommentRating",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~CommentRating",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 309,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "function",
+    "name": "Description",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~Description",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 327,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_this",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 367,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "class",
+    "name": "VideoDetailScreen",
+    "memberof": "src/screens/VideoDetailScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/VideoDetailScreen.js",
+    "importStyle": "VideoDetailScreen",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 118,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 120,
+    "kind": "method",
+    "name": "alertPopUp",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#alertPopUp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "params": [
+      {
+        "name": "mesg",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 121,
+    "kind": "member",
+    "name": "fetchDetail",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#fetchDetail",
+    "access": "public",
+    "description": null,
+    "lineNumber": 67,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "member",
+    "name": "_renderItem",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#_renderItem",
+    "access": "private",
+    "description": null,
+    "lineNumber": 85,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "member",
+    "name": "submitCommentRating",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#submitCommentRating",
+    "access": "public",
+    "description": null,
+    "lineNumber": 100,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "method",
+    "name": "testingVariables",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#testingVariables",
+    "access": "public",
+    "description": null,
+    "lineNumber": 118,
+    "undocument": true,
+    "params": [
+      {
+        "name": "acess",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 125,
+    "kind": "member",
+    "name": "submitNewDescriptionTitle",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#submitNewDescriptionTitle",
+    "access": "public",
+    "description": null,
+    "lineNumber": 130,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/VideoDetailScreen.js~VideoDetailScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoDetailScreen.js~VideoDetailScreen#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 159,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "name": "src/screens/VideoListScreen.js",
+    "content": "import React from \"react\";\nimport {\n  Text,\n  View,\n  FlatList,\n  TouchableHighlight,\n  StatusBar,\n  Dimensions,\n  StyleSheet\n} from \"react-native\";\nimport { Icon, Card } from \"react-native-elements\";\nimport { Video } from \"expo-av\";\nimport API from \"../../config/api\";\nimport { getFileFromS3 } from \"../utils\";\nimport { ScreenContainer } from \"@draftbit/ui\";\nimport Routes from \"../../config/Routes\";\n\nimport { parseDate } from \"../utils\";\n\nconst { width } = Dimensions.get(\"window\");\nconst videoHeight = (width / 16) * 9;\n\nclass VideoListScreen extends React.Component {\n  state = {\n    videos: [],\n    refreshing: false\n  };\n\n  componentDidMount() {\n    StatusBar.setHidden(false);\n    this.fetchVideos();\n  }\n\n  fetchVideos = async () => {\n    this.setState({ refreshing: true });\n    const res = await API.post(\"/video/list\", { pageSize: 50, pageNo: 0 });\n    const {\n      data: { video_list }\n    } = res;\n\n    for (const video of video_list) {\n      video.uri = await getFileFromS3(video.aws_key, video.aws_access);\n    }\n    this.setState({ videos: video_list, refreshing: false });\n  };\n\n  _toDetailScreen = item => {\n    const { navigation } = this.props;\n    navigation.navigate(Routes.VideoDetailScreen, {\n      video_id: item.id,\n      video_title: item.title,\n      editButton: false\n    });\n  };\n\n  _renderItem = ({ item }) => {\n    return (\n      // <Card style={styles.video}>\n      <View style={styles.cell}>\n        <Video\n          source={{ uri: item.uri }}\n          style={styles.video}\n          useNativeControls\n        />\n        <TouchableHighlight\n          style={{ flex: 1 }}\n          onPress={() => this._toDetailScreen(item)}\n          underlayColor=\"white\"\n        >\n          <View style={styles.video_info}>\n            <View style={styles.textContainer}>\n              <View style={styles.titleContainer}>\n                <Text style={styles.titleText}>{item.title}</Text>\n              </View>\n              <View style={styles.emailContainer}>\n                <Text style={styles.emailText}>\n                  {item.user_email} {parseDate(item.upload_time)}\n                </Text>\n              </View>\n            </View>\n            <View style={styles.iconContainer}>\n              <Icon size={30} name=\"subject\" />\n            </View>\n          </View>\n        </TouchableHighlight>\n      </View>\n      // </Card>\n    );\n  };\n\n  render() {\n    const { videos } = this.state;\n    return (\n      <ScreenContainer hasSafeArea style={styles.container}>\n        <FlatList\n          style={{ flex: 1 }}\n          data={videos}\n          renderItem={this._renderItem}\n          keyExtractor={item => `${item.id}-${item.aws_key}`}\n          onRefresh={() => this.fetchVideos()}\n          refreshing={this.state.refreshing}\n          //ListFooterComponent={\n          //  <TouchableOpacity onPress={this.loadvideos}>\n          //    <Text style={{ padding: 30 }}>Load more</Text>\n          //  </TouchableOpacity>\n          //}\n        />\n      </ScreenContainer>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: \"#fff\"\n  },\n  cell: {\n    width: width,\n    height: videoHeight + 70,\n    backgroundColor: \"#eee\",\n    overflow: \"hidden\",\n    borderBottomColor: \"black\",\n    borderBottomWidth: 5,\n    marginBottom: 10\n  },\n  video: {\n    width: width - 10,\n    height: videoHeight - 10,\n    alignSelf: \"center\"\n  },\n  video_info: {\n    flex: 1,\n    marginLeft: 20,\n    marginRight: 10,\n    flexDirection: \"row\"\n  },\n  textContainer: {\n    flex: 1,\n    flexDirection: \"column\"\n  },\n  iconContainer: {\n    width: 70,\n    height: 30,\n    flexDirection: \"row-reverse\",\n    alignSelf: \"center\",\n    justifyContent: \"space-between\"\n  },\n\n  titleContainer: {\n    flex: 3,\n    justifyContent: \"center\"\n  },\n  titleText: {\n    fontSize: 18,\n    fontWeight: \"500\"\n  },\n  emailContainer: {\n    flex: 2,\n    justifyContent: \"center\"\n  },\n  emailText: {\n    color: \"#444\"\n  }\n});\n\nexport default VideoListScreen;\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/VideoListScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "width",
+    "memberof": "src/screens/VideoListScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoListScreen.js~width",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoListScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 129,
+    "kind": "variable",
+    "name": "videoHeight",
+    "memberof": "src/screens/VideoListScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoListScreen.js~videoHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoListScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 130,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/VideoListScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoListScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/VideoListScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 113,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 131,
+    "kind": "class",
+    "name": "VideoListScreen",
+    "memberof": "src/screens/VideoListScreen.js",
+    "static": true,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/VideoListScreen.js",
+    "importStyle": "VideoListScreen",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 132,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 134,
+    "kind": "member",
+    "name": "fetchVideos",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#fetchVideos",
+    "access": "public",
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "member",
+    "name": "_toDetailScreen",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#_toDetailScreen",
+    "access": "private",
+    "description": null,
+    "lineNumber": 47,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 136,
+    "kind": "member",
+    "name": "_renderItem",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#_renderItem",
+    "access": "private",
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/screens/VideoListScreen.js~VideoListScreen",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/screens/VideoListScreen.js~VideoListScreen#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 91,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 138,
+    "kind": "file",
+    "name": "src/screens/index.js",
+    "content": "export { default as MainScreen } from \"./MainScreen\";\nexport { default as LoginScreen } from \"./LoginScreen\";\nexport { default as RegisterUserScreen } from \"./RegisterUserScreen\";\nexport { default as ProfileScreen } from \"./ProfileScreen\";\nexport { default as VideoListScreen } from \"./VideoListScreen\";\nexport { default as VideoDetailScreen } from \"./VideoDetailScreen\";\nexport { default as MyVideoList } from \"./MyVideoList\";\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/screens/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 139,
+    "kind": "file",
+    "name": "src/utils/DateUtils.js",
+    "content": "export const parseDate = function(dateString) {\n  const date = new Date(dateString);\n  return date.toLocaleDateString();\n};\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/utils/DateUtils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 140,
+    "kind": "function",
+    "name": "parseDate",
+    "memberof": "src/utils/DateUtils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/DateUtils.js~parseDate",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/DateUtils.js",
+    "importStyle": "{parseDate}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dateString",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "file",
+    "name": "src/utils/MediaManagement.js",
+    "content": "import { Storage } from \"aws-amplify\";\nimport * as ImagePicker from \"expo-image-picker\";\n\nimport API from \"../../config/api\";\n\nexport const uploadVideo = async videoObj => {\n  const { cancelled, uri } = videoObj;\n  if (!cancelled) {\n    const { key: aws_key, access: aws_access } = await storeFileInS3(uri);\n    const variables = {\n      aws_access,\n      aws_key,\n      title: videoObj.videoTitle,\n      description: videoObj.videoDiscription,\n      is_public: aws_access === videoObj.access\n    };\n    await API.post(\"/video/upload\", { ...variables });\n  }\n  // access being sent\n  /** \n  console.log(\"access passed to backend below\");\n  console.log(videoObj.access);\n  */\n};\n\nexport const getFileFromS3 = async (key, access = \"public\") => {\n  return await Storage.get(key, { level: access });\n};\n\nexport const storeFileInS3 = async (\n  fileUri,\n  awsKey = null,\n  access = \"public\"\n) => {\n  const blob = await new Promise((resolve, reject) => {\n    const xhr = new XMLHttpRequest();\n    xhr.onload = function() {\n      resolve(xhr.response);\n    };\n    xhr.onerror = function() {\n      reject(new TypeError(\"Network request failed\"));\n    };\n    xhr.responseType = \"blob\";\n    xhr.open(\"GET\", fileUri, true);\n    xhr.send(null);\n  });\n  const { name, type } = blob._data;\n  const options = {\n    level: access,\n    contentType: type\n  };\n  const key = awsKey || name;\n  const result = await Storage.put(key, blob, options);\n  return {\n    access,\n    key: result.key\n  };\n};\n\nexport const getCameraPermission = async () => {\n  const { status } = await ImagePicker.requestCameraPermissionsAsync();\n  return status === \"granted\";\n};\n\nexport const getCameraRollPermission = async () => {\n  const { status } = await ImagePicker.requestCameraRollPermissionsAsync();\n  return status === \"granted\";\n};\n\nexport const getImage = async (fromCameraRoll = true) => {\n  const { updateParentState } = this.props;\n\n  let img;\n  if (fromCameraRoll) {\n    img = await getImageFromCameraRoll(true);\n  } else {\n    img = await takePhotoWithCamera(true);\n  }\n\n  if (img && !img.cancelled) {\n    this.setState({ avatar: img, skipped: false });\n    await updateParentState({ avatar: { uri: img.uri, skipped: false } });\n  }\n};\n\nexport const takePhotoWithCamera = async (square = false) => {\n  const options = square\n    ? {\n        quality: 0.5,\n        base64: true,\n        mediaTypes: \"Images\",\n        allowsEditing: true,\n        exif: false,\n        aspect: [1, 1]\n      }\n    : {\n        quality: 0.5,\n        base64: true,\n        mediaTypes: \"Images\",\n        allowsEditing: true,\n        exif: false\n      };\n  const permission = await getCameraPermission();\n  const permission2 = await getCameraRollPermission();\n  if (permission && permission2) {\n    try {\n      const image = await ImagePicker.launchCameraAsync(options);\n      return image;\n    } catch (err) {\n      return null;\n    }\n  } else {\n    return null;\n  }\n};\n\nexport const getImageFromCameraRoll = async (square = false) => {\n  const options = square\n    ? {\n        quality: 0.5,\n        base64: true,\n        mediaTypes: \"Images\",\n        allowsEditing: true,\n        exif: false,\n        aspect: [1, 1]\n      }\n    : {\n        quality: 0.5,\n        base64: true,\n        mediaTypes: \"Images\",\n        allowsEditing: true,\n        exif: false\n      };\n  const permission = await getCameraRollPermission();\n  if (permission) {\n    const image = await ImagePicker.launchImageLibraryAsync(options);\n    return image;\n  }\n  return null;\n};\n\nconst videoIsUnderTimeLimit = ({ duration }) => {\n  const MAX_VIDEO_LENGTH_SECONDS = 600; // 10 minutes\n  return duration <= MAX_VIDEO_LENGTH_SECONDS * 1000;\n};\n\nexport const getVideoFromCameraRoll = async () => {\n  const options = {\n    quality: 0.5,\n    base64: true,\n    mediaTypes: \"Videos\",\n    exif: false,\n    allowsEditing: true\n  };\n  const permission = await getCameraRollPermission();\n  if (permission) {\n    const video = await ImagePicker.launchImageLibraryAsync(options);\n    if (!videoIsUnderTimeLimit(video)) {\n      return null;\n    }\n    return video;\n  }\n  return null;\n};\n\nexport const takeVideoWithCamera = async () => {\n  const options = {\n    quality: 0.5,\n    base64: true,\n    mediaTypes: \"Videos\",\n    exif: false,\n    allowsEditing: true\n  };\n  const permission = await getCameraPermission();\n  const permission2 = await getCameraRollPermission();\n  if (permission && permission2) {\n    try {\n      const video = await ImagePicker.launchCameraAsync(options);\n      if (!videoIsUnderTimeLimit(video)) {\n        return null;\n      }\n      return video;\n    } catch (err) {\n      return null;\n    }\n  } else {\n    return null;\n  }\n};\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/utils/MediaManagement.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 142,
+    "kind": "function",
+    "name": "uploadVideo",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~uploadVideo",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{uploadVideo}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "videoObj",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 143,
+    "kind": "function",
+    "name": "getFileFromS3",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getFileFromS3",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getFileFromS3}",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "params": [
+      {
+        "name": "key",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "access",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "public",
+        "defaultValue": "public"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 144,
+    "kind": "function",
+    "name": "storeFileInS3",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~storeFileInS3",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{storeFileInS3}",
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [
+      {
+        "name": "fileUri",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "awsKey",
+        "optional": true,
+        "types": [
+          "undefined"
+        ],
+        "defaultValue": "undefined"
+      },
+      {
+        "name": "access",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "public",
+        "defaultValue": "public"
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"access\": *, \"key\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "function",
+    "name": "getCameraPermission",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getCameraPermission",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getCameraPermission}",
+    "description": null,
+    "lineNumber": 60,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 146,
+    "kind": "function",
+    "name": "getCameraRollPermission",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getCameraRollPermission",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getCameraRollPermission}",
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "function",
+    "name": "getImage",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getImage",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getImage}",
+    "description": null,
+    "lineNumber": 70,
+    "undocument": true,
+    "params": [
+      {
+        "name": "fromCameraRoll",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": true,
+        "defaultValue": "true"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 148,
+    "kind": "function",
+    "name": "takePhotoWithCamera",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~takePhotoWithCamera",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{takePhotoWithCamera}",
+    "description": null,
+    "lineNumber": 86,
+    "undocument": true,
+    "params": [
+      {
+        "name": "square",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": false,
+        "defaultValue": "false"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "function",
+    "name": "getImageFromCameraRoll",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getImageFromCameraRoll",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getImageFromCameraRoll}",
+    "description": null,
+    "lineNumber": 117,
+    "undocument": true,
+    "params": [
+      {
+        "name": "square",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": false,
+        "defaultValue": "false"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "function",
+    "name": "videoIsUnderTimeLimit",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~videoIsUnderTimeLimit",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 142,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"duration\": *}"
+        ],
+        "defaultRaw": {
+          "duration": null
+        },
+        "defaultValue": "{\"duration\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "function",
+    "name": "getVideoFromCameraRoll",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~getVideoFromCameraRoll",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{getVideoFromCameraRoll}",
+    "description": null,
+    "lineNumber": 147,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "function",
+    "name": "takeVideoWithCamera",
+    "memberof": "src/utils/MediaManagement.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/utils/MediaManagement.js~takeVideoWithCamera",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/utils/MediaManagement.js",
+    "importStyle": "{takeVideoWithCamera}",
+    "description": null,
+    "lineNumber": 166,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 153,
+    "kind": "file",
+    "name": "src/utils/index.js",
+    "content": "export {\n  uploadVideo,\n  getFileFromS3,\n  storeFileInS3,\n  getCamerPermission,\n  getCameraRollPermission,\n  getImage,\n  takePhotoWithCamera,\n  getImageFromCameraRoll,\n  getVideoFromCameraRoll,\n  takeVideoWithCamera\n} from \"./MediaManagement\";\n\nexport { parseDate } from \"./DateUtils\";\n",
+    "static": true,
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/src/utils/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "",
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"main\": \"node_modules/expo/AppEntry.js\",\n  \"scripts\": {\n    \"start\": \"expo start\",\n    \"android\": \"expo start --android\",\n    \"ios\": \"expo start --ios\",\n    \"web\": \"expo start --web\",\n    \"eject\": \"expo eject\",\n    \"test\": \"jest\"\n  },\n  \"dependencies\": {\n    \"@aws-amplify/api\": \"^2.1.6\",\n    \"@aws-amplify/pubsub\": \"^2.1.7\",\n    \"@draftbit/ui\": \"^2.39.1-16\",\n    \"@react-native-community/masked-view\": \"^0.1.6\",\n    \"@react-native-community/netinfo\": \"^5.5.1\",\n    \"aws-amplify\": \"^2.2.6\",\n    \"axios\": \"^0.19.2\",\n    \"expo\": \"~36.0.0\",\n    \"expo-av\": \"^8.0.0\",\n    \"expo-image-picker\": \"^8.0.2\",\n    \"expo-permissions\": \"^8.0.0\",\n    \"react\": \"~16.9.0\",\n    \"react-dom\": \"~16.9.0\",\n    \"react-native\": \"https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz\",\n    \"react-native-dialog\": \"^5.6.0\",\n    \"react-native-elements\": \"^1.2.7\",\n    \"react-native-modal\": \"^11.5.4\",\n    \"react-native-picker-select\": \"^6.6.0\",\n    \"react-native-ratings\": \"^6.5.0\",\n    \"react-native-safe-area-context\": \"^0.7.3\",\n    \"react-native-screens\": \"^2.0.0-beta.10\",\n    \"react-native-web\": \"~0.11.7\",\n    \"react-navigation\": \"^4.1.1\",\n    \"react-navigation-stack\": \"^2.1.1\",\n    \"react-navigation-tabs\": \"^2.8.2\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.0.0\",\n    \"babel-eslint\": \"^10.1.0\",\n    \"babel-preset-expo\": \"~8.0.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^6.8.0\",\n    \"eslint-plugin-react\": \"^7.18.3\",\n    \"jest\": \"^25.1.0\",\n    \"jest-expo\": \"^36.0.1\",\n    \"prettier\": \"^1.19.1\",\n    \"react-test-renderer\": \"^16.13.0\"\n  },\n  \"jest\": {\n    \"preset\": \"jest-expo\",\n    \"transformIgnorePatterns\": [\n      \"node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@draftbit/*)\"\n    ]\n  },\n  \"private\": true\n}\n",
+    "longname": "/Users/botaohan/Desktop/uiuc/sp20/cs428/vat2/VAT/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
