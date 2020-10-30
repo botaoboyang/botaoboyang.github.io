@@ -1,0 +1,61 @@
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<div id="app">
+
+    <table class="nonogram-table">
+        <tbody>
+            <tr>
+                <td class="blank"><!-- blank --></td>
+                <td class="col-table">
+                    <table>
+                        <tbody>
+                            <tr v-for="row in colTable">
+                                <td class="cell" v-for="n in row">
+                                    <span v-if="n>0">{{ n }}</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+
+                <td class="row-table">
+                    <table>
+                        <tbody>
+                            <tr v-for="row in rowTable">
+                                <td class="cell" v-for="n in row">
+                                    <span v-if="n>0">{{ n }}</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+                <td class="board-table">
+                    <table>
+                        <tbody>
+                            <tr v-for="(row, i) in board">
+                                <td class="cell" 
+                                    v-for="(t, j) in row"
+                                    @click="clickTile(i, j)"
+                                    :style="styleMap[t]">
+
+                                    <div class="dot-tile" v-if="t==-1"></div>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<script src="index.js"></script>
