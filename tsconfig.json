@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "strict": true,
+      "removeComments": true,
+      "sourceMap": true
+    },
+    "files": [
+       "maze/maze.ts"
+    ],
+    "exclude": ["**/*.js"],
+    "include": ["**/*.ts"]
+}
