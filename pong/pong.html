@@ -1,0 +1,33 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Pong</title>
+<style>
+body {
+	text-align: center;
+}
+#canvas {
+	border: 3px solid;
+}
+</style>
+</head>
+
+<body>
+	<canvas id="canvas" width="600" height="500"></canvas>
+	<div style="width: 600px; margin: auto">
+		<div style="float:left;">
+			Blue Player:
+			<button id="leftPlayerBtn" style="width:70px" onclick="leftPlayerBtnClick()">Human</button>
+		</div>
+		<button id="pauseBtn" onclick="pauseBtnClick()">pause</button>
+		<div style="float:right;">
+			Red Player:
+			<button id="rightPlayerBtn" style="width:70px" onclick="rightPlayerBtnClick()">Computer</button>
+		</div>
+	</div>
+	<script src="pong.js"></script>
+</body>
+
+</html>
